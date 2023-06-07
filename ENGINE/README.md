@@ -15,9 +15,11 @@ Specs:
 - Fully balanced crankshaft with rods and flywheel.
 - Main and rod bearings: stanard size from ACL Race Bearings.
 - Head ported a bit to match inlet and outlet gaskets (https://docs.google.com/spreadsheets/d/1PFJInhn7sOsHwqv-euhsF417-aVGpTfvuwedF-gkzFo/edit#gid=0)
-- Custom downpipe (2x45mm of 35cm length) and exhaust (2.25") (magnaflow + scorpion exhaust) from Kowalsky Custom.
-- Green Bosch Giant injectors (nr 0280155968)
-- BMW M52 coil-on-plug with NGK spark plugs.
+- Custom downpipe (2x45mm of 35cm length) and exhaust (2.25") (magnaflow + scorpion exhaust) from Kowalsky Custom (Wroclaw).
+- Green Bosch Giant injectors 440cc (nr 0280155968)
+- BMW M52 coil-on-plug with NGK BKR7E spark plugs.
+- Custom cone cold-air intake - 70mm aluminium pipe OD with aluminium 2mm thick wall, top rubber gasket: 2cm, others: 1cm.
+- Electric fan turned on 95C by ECU, wiring is available in ENGINE folder.
 
 
 ECU:
