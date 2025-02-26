@@ -1,0 +1,15 @@
+Things that need to be done:
+- [ ] Spal fan connector
+- [ ] Heater Core
+- [ ] LSD diff
+- [ ] Front Valance 
+- [ ] Side Window gaskets
+- [ ] ITB
+- [ ] Lower left window trim replacement
+- [ ] Passenger doorstep cover
+- [ ] Rear Valance
+- [ ] M tech boot spoiler
+- [ ] M tech side skirts
+- [ ] Black headliner
+- [ ] Upholstery
+- [ ] M3 cluster oil temp
