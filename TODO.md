@@ -2,6 +2,7 @@ Things that need to be done:
 - [ ] Spal fan connector
 - [ ] Heater Core
 - [ ] LSD diff
+- [ ] new Starter needed (?)
 - [ ] Front Valance 
 - [ ] Side Window gaskets
 - [ ] ITB

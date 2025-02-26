@@ -13,7 +13,7 @@ Specs:
     - Buckets: hydr
     - Timing can be seen here: https://docs.google.com/spreadsheets/d/1PFJInhn7sOsHwqv-euhsF417-aVGpTfvuwedF-gkzFo/edit#gid=1037211742
 - Fully balanced crankshaft with rods and flywheel.
-- Main and rod bearings: stanard size from ACL Race Bearings.
+- Main and rod bearings: standard size from ACL Race Bearings.
 - Head ported a bit to match inlet and outlet gaskets (https://docs.google.com/spreadsheets/d/1PFJInhn7sOsHwqv-euhsF417-aVGpTfvuwedF-gkzFo/edit#gid=0)
 - Custom downpipe (2x45mm of 35cm length) and exhaust (2.25") (magnaflow + scorpion exhaust) from Kowalsky Custom (Wroclaw).
 - Green Bosch Giant injectors 440cc (nr 0280155968)
@@ -26,3 +26,4 @@ ECU:
 - Speeduino custom from https://www.olx.pl/d/oferta/ecu-komputer-speeduino-bmw-m50-m52-m60-emu-det3-CID5-IDJMMZF.html
 - Contact to the guy who built it: +48 796 104 806
 - VE:MAP based tuning
+- 2025 Speeduino update: arduino to [STM32](https://github.com/pazi88/STM32_mega) move - now it supports SD card logging and CAN.
