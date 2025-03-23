@@ -4,7 +4,9 @@ Things that need to be done:
 - [ ] LSD diff
 - [ ] new Starter needed (?)
 - [ ] Front Valance 
-- [ ] Side Window gaskets
+- [x] Side Window gaskets
+- [ ] Mid muffler
+- [ ] Rear muffler
 - [ ] ITB
 - [ ] Lower left window trim replacement
 - [ ] Passenger doorstep cover
@@ -15,3 +17,4 @@ Things that need to be done:
 - [ ] Upholstery
 - [ ] M3 cluster oil temp
 - [ ] Move to RusEFI
+- [ ] Restore front lights
