@@ -22,5 +22,5 @@ Things that need to be done:
 
 To buy:
 - diff:
-  - [ ] m12x55 - bolt + washers + nut
-  - [ ] 12mm różnicy na stronę flange
+  - [ ] m12x55 - bolt + washers + nut (M12X1,5X55 8.8)
+  - [ ] M10X50 - 12x torx lub imbus (10.9)
