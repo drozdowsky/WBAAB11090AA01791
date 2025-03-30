@@ -18,3 +18,9 @@ Things that need to be done:
 - [ ] M3 cluster oil temp
 - [ ] Move to RusEFI
 - [ ] Restore front lights
+
+
+To buy:
+- diff:
+  - [ ] m12x55 - bolt + washers + nut
+  - [ ] 12mm różnicy na stronę flange
