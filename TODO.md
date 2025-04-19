@@ -3,7 +3,7 @@ Things that need to be done:
 - [ ] Heater Core
 - [ ] LSD diff
 - [ ] new Starter needed (?)
-- [ ] Front Valance 
+- [x] Front Valance
 - [x] Side Window gaskets
 - [ ] Mid muffler
 - [ ] Rear muffler
