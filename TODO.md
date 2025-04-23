@@ -1,8 +1,8 @@
 Things that need to be done:
-- [ ] Spal fan connector
+- [x] Spal fan connector
 - [ ] Heater Core
 - [ ] LSD diff
-- [ ] new Starter needed (?)
+- [x] new Starter needed (?)
 - [x] Front Valance
 - [x] Side Window gaskets
 - [ ] Mid muffler
