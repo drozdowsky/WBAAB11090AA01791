@@ -1,5 +1,5 @@
 Things that need to be done:
-- [ ] fix ecu
+- [x] fix ecu
 - [x] Spal fan connector
 - [ ] Heater Core
 - [x] LSD diff
