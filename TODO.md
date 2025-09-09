@@ -16,6 +16,7 @@ Things that need to be done:
 - [ ] M tech side skirts
 - [ ] Black headliner
 - [ ] Upholstery
+- [ ] oil temp/pressure
 - [ ] M3 cluster oil temp
 - [ ] Move to RusEFI
 - [ ] Restore front lights
