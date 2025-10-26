@@ -3,7 +3,7 @@ Things that need to be done:
 - [x] Spal fan connector
 - [ ] Heater Core
 - [x] LSD diff
-- [x] new Starter needed (?)
+- [x] new starter
 - [x] Front Valance
 - [x] Side Window gaskets
 - [x] Mid muffler
@@ -20,6 +20,8 @@ Things that need to be done:
 - [ ] M3 cluster oil temp
 - [ ] Move to RusEFI
 - [ ] Restore front lights
+- [ ] front strut bar
+- [ ] rear strut bar
 
 
 To buy:
