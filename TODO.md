@@ -22,6 +22,9 @@ Things that need to be done:
 - [ ] Restore front lights
 - [ ] front strut bar
 - [ ] rear strut bar
+- [ ] oil dry sump
+- [ ] barrel throttle body
+- [ ] catcams
 
 
 To buy:
