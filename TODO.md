@@ -9,6 +9,7 @@ Things that need to be done:
 - [x] Mid muffler
 - [ ] Rear muffler
 - [ ] ITB
+- [ ] Tune the ITBs
 - [ ] Lower left window trim replacement
 - [ ] Passenger doorstep cover
 - [ ] Rear Valance
