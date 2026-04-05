@@ -26,6 +26,7 @@ Things that need to be done:
 - [ ] oil dry sump
 - [ ] barrel throttle body
 - [ ] catcams
+- [ ] door seals
 
 
 To buy:
