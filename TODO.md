@@ -8,7 +8,7 @@ Things that need to be done:
 - [x] Side Window gaskets
 - [x] Mid muffler
 - [ ] Rear muffler
-- [ ] ITB
+- [x] ITB
 - [ ] Tune the ITBs
 - [ ] Lower left window trim replacement
 - [ ] Passenger doorstep cover
@@ -17,16 +17,16 @@ Things that need to be done:
 - [ ] M tech side skirts
 - [ ] Black headliner
 - [ ] Upholstery
-- [ ] oil temp/pressure
+- [x] oil temp/pressure
 - [ ] M3 cluster oil temp
-- [ ] Move to RusEFI
+- [x] Move to RusEFI
 - [ ] Restore front lights
 - [ ] front strut bar
 - [ ] rear strut bar
 - [ ] oil dry sump
 - [ ] barrel throttle body
 - [ ] catcams
-- [ ] door seals
+- [x] door seals
 
 
 To buy:
