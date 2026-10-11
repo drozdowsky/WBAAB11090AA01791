@@ -63,6 +63,9 @@ Dates before 2026-10 come from git history: they show when the work was written 
 - Custom Speeduino ECU.
 - Custom downpipe and 2.25" exhaust by Kowalsky Custom (Wrocław).
 
+## 2020–2025: Interior parts (interior)
+- Fitted over these years: E30 sport seats, M-Tech 1 steering wheel and shift knob, custom 8k rpm cluster, OBC 1, Blaupunkt Bremen SQR 46. See [interior/README.md](interior/README.md).
+
 ## 2022: Suspension refresh (suspension)
 - Poly bushings (80A), all parts blasted and painted, new hubs and links.
 - H&R -35 mm springs, Bilstein B8, rear sway bar added.

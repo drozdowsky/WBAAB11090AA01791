@@ -1,0 +1,471 @@
+<title>E30 0–100 Simulator</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --ground: #eceff2;
+    --panel: #ffffff;
+    --ink: #15191e;
+    --muted: #5d6670;
+    --line: #d3d9df;
+    --accent: #d9480f;
+    --accent-soft: #fbe3d8;
+    --ref: #7a8794;
+    --good: #2f7d4f;
+    --display: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+    --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0f1215; --panel: #171b20; --ink: #e7eaee; --muted: #9aa4ae;
+      --line: #2a3038; --accent: #ff6a2b; --accent-soft: #3a2116; --ref: #6c7884; --good: #5fbf86;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #0f1215; --panel: #171b20; --ink: #e7eaee; --muted: #9aa4ae;
+    --line: #2a3038; --accent: #ff6a2b; --accent-soft: #3a2116; --ref: #6c7884; --good: #5fbf86;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground); color: var(--ink); font: 14px/1.5 var(--body);
+    padding-inline: 16px; padding-block: 24px 48px;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; display: grid; gap: 20px; }
+  header h1 {
+    font: 700 clamp(28px, 4vw, 40px)/1 var(--display); letter-spacing: .01em; margin: 0;
+    text-wrap: balance;
+  }
+  header p { margin: 6px 0 0; color: var(--muted); max-width: 70ch; }
+
+  .layout { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 20px; align-items: start; }
+  @media (max-width: 880px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
+  .controls { padding: 4px 16px 16px; display: grid; gap: 4px; }
+  fieldset { border: 0; border-top: 1px solid var(--line); margin: 0; padding: 12px 0 8px; display: grid; gap: 8px; }
+  fieldset:first-child { border-top: 0; }
+  legend {
+    font: 600 12px/1 var(--body); text-transform: uppercase; letter-spacing: .08em; color: var(--muted);
+    padding: 0; margin-bottom: 4px; float: left; width: 100%;
+  }
+  .row { display: grid; grid-template-columns: minmax(0, 1fr) 96px; gap: 8px; align-items: center; }
+  .row label { color: var(--ink); }
+  .row small { color: var(--muted); font-size: 12px; }
+  input, select, button { font: inherit; color: var(--ink); }
+  input[type="number"], select {
+    width: 100%; padding: 5px 8px; border: 1px solid var(--line); border-radius: 4px;
+    background: var(--ground); font-family: var(--mono); font-size: 13px; font-variant-numeric: tabular-nums;
+  }
+  select { font-family: var(--body); }
+  .gears { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
+  .gears label { font-size: 12px; color: var(--muted); display: grid; gap: 2px; }
+  input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  details summary { cursor: pointer; color: var(--muted); font-size: 13px; padding: 4px 0; }
+  .curve { display: grid; grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); gap: 6px; margin-top: 8px; }
+  .curve label { font-size: 11px; color: var(--muted); font-family: var(--mono); display: grid; gap: 2px; }
+
+  .main { display: grid; gap: 20px; min-width: 0; }
+  .result { padding: 18px 20px; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px 32px; align-items: center; }
+  @media (max-width: 560px) { .result { grid-template-columns: minmax(0, 1fr); } }
+  .big { display: grid; gap: 2px; }
+  .big .label { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+  .big .value { font: 700 72px/0.95 var(--display); font-variant-numeric: tabular-nums; color: var(--accent); }
+  .big .value span { font-size: 32px; color: var(--muted); margin-left: 4px; }
+  .big .delta { font-family: var(--mono); font-size: 13px; color: var(--muted); min-height: 1.5em; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px 20px; margin: 0; }
+  .stats div { display: grid; gap: 0; }
+  .stats dt { font-size: 12px; color: var(--muted); }
+  .stats dd { margin: 0; font: 600 22px/1.2 var(--display); font-variant-numeric: tabular-nums; }
+
+  .chart { padding: 14px 16px 10px; display: grid; gap: 8px; }
+  .chart-head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; }
+  .chart-head h2 { font: 600 20px/1 var(--display); margin: 0; letter-spacing: .01em; }
+  .legend { display: flex; gap: 14px; font-size: 12px; color: var(--muted); align-items: center; flex-wrap: wrap; }
+  .swatch { display: inline-block; width: 18px; height: 0; border-top: 2px solid var(--accent); vertical-align: middle; margin-right: 6px; }
+  .swatch.ref { border-top: 2px dashed var(--ref); }
+  .buttons { display: flex; gap: 8px; }
+  button {
+    border: 1px solid var(--line); background: var(--ground); border-radius: 4px; padding: 5px 10px; cursor: pointer; font-size: 13px;
+  }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  button:disabled { opacity: .5; cursor: default; }
+  canvas { width: 100%; height: 340px; display: block; }
+
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+  th, td { text-align: right; padding: 8px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  th { font-size: 12px; font-weight: 500; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+  td { font-family: var(--mono); font-size: 13px; }
+  tr.active td { background: var(--accent-soft); }
+  .gearcard { padding: 6px 4px 4px; }
+  .gearcard h2 { font: 600 20px/1 var(--display); margin: 10px 12px 4px; }
+
+  .notes { color: var(--muted); font-size: 13px; max-width: 80ch; }
+  .notes p { margin: 0 0 6px; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>E30 0–100 Simulator</h1>
+    <p>Physics estimate for WBAAB11090AA01791: M42B18.5 with ITBs, Getrag 240, 4.27 LSD. Defaults come from the repo and the Stage 2 dyno. Change any value and the run updates.</p>
+  </header>
+
+  <div class="layout">
+    <form class="panel controls" id="form" autocomplete="off">
+      <fieldset>
+        <legend>Engine</legend>
+        <div class="row"><label for="preset">Torque curve</label>
+          <select id="preset">
+            <option value="s2">Stage 2 (2026)</option>
+            <option value="s1">Stage 1 (2023)</option>
+          </select>
+        </div>
+        <div class="row"><label for="limiter">Rev limiter / shift <small>rpm</small></label><input type="number" id="limiter" step="50"></div>
+        <div class="row"><label for="launch">Launch rpm</label><input type="number" id="launch" step="250"></div>
+        <div class="row"><label for="engJ">Engine + flywheel inertia <small>kg·m²</small></label><input type="number" id="engJ" step="0.01"></div>
+        <details>
+          <summary>Edit torque curve (Nm)</summary>
+          <div class="curve" id="curve"></div>
+        </details>
+      </fieldset>
+
+      <fieldset>
+        <legend>Gearing</legend>
+        <div class="gears" id="gears"></div>
+        <div class="row"><label for="final">Final drive</label><input type="number" id="final" step="0.01"></div>
+        <div class="row"><label for="shiftTime">Shift time <small>s</small></label><input type="number" id="shiftTime" step="0.05"></div>
+        <div class="row"><label for="loss">Drivetrain loss <small>%</small></label><input type="number" id="loss" step="1"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Tyres and grip</legend>
+        <div class="row"><label for="tw">Width <small>mm</small></label><input type="number" id="tw" step="5"></div>
+        <div class="row"><label for="ta">Profile <small>%</small></label><input type="number" id="ta" step="5"></div>
+        <div class="row"><label for="tr">Rim <small>inch</small></label><input type="number" id="tr" step="1"></div>
+        <div class="row"><label for="grip">Tyre type</label>
+          <select id="grip">
+            <option value="0.9">Touring (Sportrac)</option>
+            <option value="1.0">Sporty summer</option>
+            <option value="1.1">Track-day road (NS-2R)</option>
+            <option value="1.2">Semi-slick</option>
+            <option value="custom">Custom</option>
+          </select>
+        </div>
+        <div class="row"><label for="mu">Grip µ</label><input type="number" id="mu" step="0.05"></div>
+        <div class="row"><label for="wheelJ">Wheel + tyre inertia <small>kg·m² each</small></label><input type="number" id="wheelJ" step="0.1"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Body</legend>
+        <div class="row"><label for="mass">Car weight <small>kg</small></label><input type="number" id="mass" step="5"></div>
+        <div class="row"><label for="driver">Driver <small>kg</small></label><input type="number" id="driver" step="5"></div>
+        <div class="row"><label for="rear">Weight on rear <small>%</small></label><input type="number" id="rear" step="1"></div>
+        <div class="row"><label for="cgh">CG height <small>m</small></label><input type="number" id="cgh" step="0.01"></div>
+        <div class="row"><label for="wb">Wheelbase <small>m</small></label><input type="number" id="wb" step="0.01"></div>
+        <div class="row"><label for="cd">Cd</label><input type="number" id="cd" step="0.01"></div>
+        <div class="row"><label for="area">Frontal area <small>m²</small></label><input type="number" id="area" step="0.01"></div>
+        <div class="row"><label for="crr">Rolling resistance</label><input type="number" id="crr" step="0.001"></div>
+      </fieldset>
+      <button type="button" id="reset">Reset to car defaults</button>
+    </form>
+
+    <div class="main">
+      <section class="panel result" aria-live="polite">
+        <div class="big">
+          <span class="label">0–100 km/h</span>
+          <span class="value" id="t100">–</span>
+          <span class="delta" id="delta"></span>
+        </div>
+        <dl class="stats">
+          <div><dt>0–50 km/h</dt><dd id="t50">–</dd></div>
+          <div><dt>0–60 mph</dt><dd id="t60">–</dd></div>
+          <div><dt>Shifts</dt><dd id="shifts">–</dd></div>
+          <div><dt>Grip-limited up to</dt><dd id="grip-to">–</dd></div>
+          <div><dt>Peak acceleration</dt><dd id="peakA">–</dd></div>
+          <div><dt>Peak power</dt><dd id="peakP">–</dd></div>
+        </dl>
+      </section>
+
+      <section class="panel chart">
+        <div class="chart-head">
+          <h2>Speed over time</h2>
+          <div class="legend">
+            <span><i class="swatch"></i>Current</span>
+            <span id="ref-legend" hidden><i class="swatch ref"></i><span id="ref-label">Reference</span></span>
+          </div>
+          <div class="buttons">
+            <button type="button" class="primary" id="pin">Pin as reference</button>
+            <button type="button" id="clear" disabled>Clear</button>
+          </div>
+        </div>
+        <canvas id="canvas" role="img" aria-label="Speed over time chart"></canvas>
+      </section>
+
+      <section class="panel gearcard">
+        <h2>Gears</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Gear</th><th>Ratio</th><th>Overall</th><th>Max km/h</th><th>Shift at km/h</th></tr></thead>
+            <tbody id="gear-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="notes">
+        <p>Each step takes the lower of two limits: what the engine can push (torque × gearing, minus losses and rotating mass) and what the rear tyres can hold (grip × rear load, with weight transfer). Until the clutch is fully engaged, the engine stays at launch rpm and its inertia is not counted.</p>
+        <p>Power is shown in BHP as on the dyno sheet (Nm × rpm / 7023.5). Treat results as ±0.5 s. A GPS timing beats any model.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const CURVES = {
+  s2: { limiter: 7500, points: [[1600,132],[2000,153],[2500,158],[3000,170],[3500,181],[4000,175],[4500,187],[5000,201],[5500,207],[6000,205],[6500,205],[7000,199],[7500,186],[7750,175]] },
+  s1: { limiter: 7050, points: [[1600,117],[2000,129],[2500,157],[3000,154],[3500,174],[4000,171],[4500,191],[5000,201],[5500,210],[6000,204],[6500,188],[7000,160]] },
+};
+const DEFAULTS = {
+  preset: "s2", limiter: 7750, launch: 4500, engJ: 0.12,
+  gears: [3.72, 2.02, 1.32, 1.00, 0.81], final: 4.27, shiftTime: 0.35, loss: 15,
+  tw: 195, ta: 65, tr: 14, grip: "0.9", mu: 0.9, wheelJ: 0.8,
+  mass: 1100, driver: 75, rear: 48, cgh: 0.50, wb: 2.57, cd: 0.38, area: 1.86, crr: 0.015,
+};
+const FIELDS = ["limiter","launch","engJ","final","shiftTime","loss","tw","ta","tr","mu","wheelJ","mass","driver","rear","cgh","wb","cd","area","crr"];
+const $ = id => document.getElementById(id);
+let curve = CURVES.s2.points.map(p => p.slice());
+let reference = null;
+let last = null;
+
+function torqueAt(rpm) {
+  if (rpm <= curve[0][0]) return curve[0][1];
+  for (let i = 0; i < curve.length - 1; i++) {
+    const [a, ta] = curve[i], [b, tb] = curve[i + 1];
+    if (rpm <= b) return ta + (tb - ta) * (rpm - a) / (b - a);
+  }
+  return curve[curve.length - 1][1];
+}
+
+function tyreRadius(p) {
+  return (p.tr * 25.4 + 2 * p.tw * p.ta / 100) / 2000 * 0.975;
+}
+
+function simulate(p) {
+  const g = 9.81, rho = 1.2, dt = 0.001;
+  const m = p.mass + p.driver, r = tyreRadius(p);
+  const rear = p.rear / 100, Jw = p.wheelJ * 4;
+  const drag = v => 0.5 * rho * p.cd * p.area * v * v + p.crr * m * g;
+  const marks = { 50: null, 60: null, 100: null };
+  const goals = { 50: 50 / 3.6, 60: 96.5606 / 3.6, 100: 100 / 3.6 };
+  let v = 0, t = 0, gi = 0, gripTo = 0, peakA = 0, n = 0;
+  const trace = [[0, 0]], shifts = [];
+
+  while (v < goals[100] && t < 30) {
+    const ratio = p.gears[gi] * p.final;
+    const lockedRpm = v / r * ratio * 60 / (2 * Math.PI);
+    if (lockedRpm >= p.limiter) {
+      if (gi === p.gears.length - 1) break;
+      shifts.push({ t, v, gear: gi + 2 });
+      const end = t + p.shiftTime;
+      while (t < end) { v -= drag(v) / m * dt; t += dt; if (++n % 10 === 0) trace.push([t, v]); }
+      gi++;
+      continue;
+    }
+    const slipping = lockedRpm < p.launch;
+    const rpm = slipping ? p.launch : lockedRpm;
+    const fEng = torqueAt(rpm) * ratio * (1 - p.loss / 100) / r;
+    const lam = 1 + (Jw + (slipping ? 0 : p.engJ * ratio * ratio)) / (m * r * r);
+    const aEng = (fEng - drag(v)) / (m * lam);
+    const aGrip = (p.mu * g * rear - drag(v) / m) / (1 - p.mu * p.cgh / p.wb);
+    const a = Math.min(aEng, aGrip);
+    if (aGrip < aEng) gripTo = v;
+    if (a <= 0 && v > 1) break;
+    peakA = Math.max(peakA, a);
+    v += a * dt; t += dt;
+    for (const k in goals) if (marks[k] === null && v >= goals[k]) marks[k] = t;
+    if (++n % 10 === 0) trace.push([t, v]);
+  }
+  trace.push([t, v]);
+  return { marks, trace, shifts, gripTo, peakA, r, finalGear: gi + 1 };
+}
+
+function readParams() {
+  const p = { gears: [] };
+  for (const f of FIELDS) p[f] = parseFloat($(f).value) || 0;
+  for (let i = 0; i < 5; i++) p.gears.push(parseFloat($("g" + i).value) || 1);
+  return p;
+}
+
+function fmt(x, d = 2) { return x == null ? "–" : x.toFixed(d); }
+
+function render() {
+  const p = readParams();
+  const res = simulate(p);
+  last = { res, label: labelFor(p) };
+  const t = res.marks[100];
+  $("t100").innerHTML = t == null ? "n/a" : `${fmt(t)}<span>s</span>`;
+  const rt = reference && reference.res.marks[100];
+  if (t != null && rt != null) {
+    const d = t - rt;
+    $("delta").textContent = `${d <= 0 ? "−" : "+"}${Math.abs(d).toFixed(2)} s vs reference`;
+  } else {
+    $("delta").textContent = t == null ? "Does not reach 100 km/h" : "";
+  }
+  $("t50").textContent = res.marks[50] == null ? "–" : fmt(res.marks[50]) + " s";
+  $("t60").textContent = res.marks[60] == null ? "–" : fmt(res.marks[60]) + " s";
+  $("shifts").textContent = `${res.shifts.length} (ends in ${res.finalGear}${["st","nd","rd","th","th"][res.finalGear - 1]})`;
+  $("grip-to").textContent = res.gripTo > 0 ? Math.round(res.gripTo * 3.6) + " km/h" : "never";
+  $("peakA").textContent = fmt(res.peakA / 9.81) + " g";
+  let peak = 0, peakRpm = 0;
+  for (let rpm = curve[0][0]; rpm <= p.limiter; rpm += 25) {
+    const bhp = torqueAt(rpm) * rpm / 7023.5;
+    if (bhp > peak) { peak = bhp; peakRpm = rpm; }
+  }
+  $("peakP").textContent = `${peak.toFixed(0)} BHP`;
+  renderGears(p, res);
+  draw();
+}
+
+function labelFor(p) {
+  const tyre = $("grip").selectedOptions[0].textContent;
+  return `${$("preset").selectedOptions[0].textContent}, ${tyre}, ${p.mass + p.driver} kg`;
+}
+
+function renderGears(p, res) {
+  const rows = p.gears.map((gr, i) => {
+    const overall = gr * p.final;
+    const vmax = p.limiter / overall * 2 * Math.PI * res.r / 60 * 3.6;
+    const shift = res.shifts.find(s => s.gear === i + 2);
+    const used = i < res.finalGear;
+    return `<tr class="${used ? "active" : ""}"><td>${i + 1}</td><td>${gr.toFixed(2)}</td><td>${overall.toFixed(2)}</td><td>${vmax.toFixed(1)}</td><td>${shift ? (shift.v * 3.6).toFixed(1) : "–"}</td></tr>`;
+  });
+  $("gear-table").innerHTML = rows.join("");
+}
+
+function css(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+
+function draw() {
+  if (!last) return;
+  const c = $("canvas"), dpr = window.devicePixelRatio || 1;
+  const w = c.clientWidth, h = c.clientHeight;
+  c.width = w * dpr; c.height = h * dpr;
+  const ctx = c.getContext("2d");
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, w, h);
+  const ink = css("--ink"), muted = css("--muted"), line = css("--line"), accent = css("--accent"), refc = css("--ref");
+  const pad = { l: 44, r: 12, t: 12, b: 34 };
+  const traces = [last.res.trace].concat(reference ? [reference.res.trace] : []);
+  const tMax = Math.max(4, Math.ceil(Math.max(...traces.map(tr => tr[tr.length - 1][0])) + 0.5));
+  const vMax = 110;
+  const X = t => pad.l + (w - pad.l - pad.r) * t / tMax;
+  const Y = kmh => h - pad.b - (h - pad.t - pad.b) * kmh / vMax;
+
+  ctx.font = `12px ${css("--mono")}`;
+  ctx.lineWidth = 1;
+  ctx.strokeStyle = line; ctx.fillStyle = muted;
+  ctx.textAlign = "right"; ctx.textBaseline = "middle";
+  for (let k = 0; k <= 100; k += 20) {
+    ctx.beginPath(); ctx.moveTo(pad.l, Y(k)); ctx.lineTo(w - pad.r, Y(k)); ctx.stroke();
+    ctx.fillText(k, pad.l - 8, Y(k));
+  }
+  ctx.textAlign = "center"; ctx.textBaseline = "top";
+  const step = tMax > 12 ? 2 : 1;
+  for (let s = 0; s <= tMax; s += step) {
+    ctx.beginPath(); ctx.moveTo(X(s), pad.t); ctx.lineTo(X(s), h - pad.b); ctx.stroke();
+    ctx.fillText(s + " s", X(s), h - pad.b + 8);
+  }
+
+  ctx.setLineDash([4, 4]); ctx.strokeStyle = muted;
+  ctx.beginPath(); ctx.moveTo(pad.l, Y(100)); ctx.lineTo(w - pad.r, Y(100)); ctx.stroke();
+  ctx.setLineDash([]);
+
+  const plot = (tr, color, dashed, width) => {
+    ctx.strokeStyle = color; ctx.lineWidth = width; ctx.setLineDash(dashed ? [6, 5] : []);
+    ctx.beginPath();
+    tr.forEach(([t, v], i) => (i ? ctx.lineTo : ctx.moveTo).call(ctx, X(t), Y(v * 3.6)));
+    ctx.stroke(); ctx.setLineDash([]);
+  };
+  if (reference) plot(reference.res.trace, refc, true, 2);
+  plot(last.res.trace, accent, false, 2.5);
+
+  ctx.fillStyle = ink; ctx.textAlign = "left"; ctx.textBaseline = "bottom";
+  for (const s of last.res.shifts) {
+    ctx.fillStyle = accent;
+    ctx.beginPath(); ctx.arc(X(s.t), Y(s.v * 3.6), 3.5, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = ink;
+    ctx.fillText(`→${s.gear}`, X(s.t) + 6, Y(s.v * 3.6) - 4);
+  }
+  const t100 = last.res.marks[100];
+  if (t100 != null) {
+    ctx.fillStyle = accent;
+    ctx.beginPath(); ctx.arc(X(t100), Y(100), 4.5, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = ink; ctx.textAlign = "right"; ctx.textBaseline = "bottom";
+    ctx.fillText(`${t100.toFixed(2)} s`, X(t100) - 8, Y(100) - 6);
+  }
+}
+
+function buildInputs() {
+  $("gears").innerHTML = DEFAULTS.gears.map((_, i) =>
+    `<label for="g${i}">${i + 1}<input type="number" id="g${i}" step="0.01"></label>`).join("");
+}
+
+function buildCurve() {
+  $("curve").innerHTML = curve.map(([rpm], i) =>
+    `<label for="c${i}">${rpm}<input type="number" id="c${i}" step="1" value="${curve[i][1]}"></label>`).join("");
+  curve.forEach((_, i) => $("c" + i).addEventListener("input", e => {
+    curve[i][1] = parseFloat(e.target.value) || 0; render();
+  }));
+}
+
+function loadPreset(key) {
+  curve = CURVES[key].points.map(p => p.slice());
+  $("limiter").value = CURVES[key].limiter;
+  buildCurve();
+}
+
+function applyDefaults() {
+  $("preset").value = DEFAULTS.preset;
+  for (const f of FIELDS) $(f).value = DEFAULTS[f];
+  DEFAULTS.gears.forEach((g, i) => $("g" + i).value = g.toFixed(2));
+  $("grip").value = DEFAULTS.grip;
+  loadPreset(DEFAULTS.preset);
+}
+
+buildInputs();
+applyDefaults();
+
+$("form").addEventListener("input", e => {
+  if (e.target.id === "preset") loadPreset(e.target.value);
+  if (e.target.id === "grip" && e.target.value !== "custom") $("mu").value = e.target.value;
+  if (e.target.id === "mu") {
+    const match = [...$("grip").options].find(o => o.value === parseFloat(e.target.value).toFixed(1) && o.value !== "custom");
+    $("grip").value = match ? match.value : "custom";
+  }
+  render();
+});
+$("form").addEventListener("submit", e => e.preventDefault());
+$("reset").addEventListener("click", () => { applyDefaults(); render(); });
+$("pin").addEventListener("click", () => {
+  reference = { res: last.res, label: last.label };
+  $("ref-label").textContent = "Reference: " + last.label;
+  $("ref-legend").hidden = false; $("clear").disabled = false;
+  render();
+});
+$("clear").addEventListener("click", () => {
+  reference = null; $("ref-legend").hidden = true; $("clear").disabled = true; render();
+});
+
+window.addEventListener("resize", draw);
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", draw);
+new MutationObserver(draw).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+if (document.fonts) document.fonts.ready.then(draw);
+render();
+</script>
