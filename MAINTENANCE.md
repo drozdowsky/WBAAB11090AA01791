@@ -20,7 +20,10 @@ Service work goes into [CHANGELOG.md](CHANGELOG.md). This file holds the referen
 | Injectors | Bosch 440cc, 0280155968 |
 | Air filter | K&N RE-0950 |
 | TPS | Variohm XPD-2832-812-214-911-00 |
+| Oil temp and pressure sensor | Bosch PST-F1 |
+| Wideband sensor | Bosch LSU 4.9 |
 | Radiator fan | SPAL VA08-AP71/LL-53A |
+| Relay (fan, wideband) | HELLA 4RA 933 332-541, 40A |
 | Tyres | Vredestein Sportrac 195/65 R14 |
 
 ## Mileage

@@ -1,6 +1,6 @@
 # WBAAB11090AA01791
 
-BMW E30 from 1989. This repo documents all modifications and service done to the car.
+BMW E30 coupe (2-door saloon) from 1989. This repo documents all modifications and service done to the car.
 
 Contact info is on my GitHub profile.
 

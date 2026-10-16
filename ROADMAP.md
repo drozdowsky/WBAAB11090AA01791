@@ -71,7 +71,18 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 
 ## Interior
 - [ ] Heater refresh (heater core)
-- [ ] Speakers for the Blaupunkt Bremen SQR 46: front (with tweeters) + rear
+- [ ] Speakers for the Blaupunkt Bremen SQR 46 (internal amp, 4 x 24 W RMS, no external amp)
+  - Front: Focal Auditor Evo ASE-130. 13 cm component set, 4 Ω, 90 dB, Mylar inverted dome tweeter, external passive crossovers (12 dB/oct), 55.5 mm depth
+  - Front alternatives:
+    - Eton POW 13 (discontinued) / PRA 13: 3 Ω, 91 dB, inline crossovers, 57 mm depth
+    - Focal Auditor RSE-130: older version of the ASE-130
+    - Audison Prima APK 130 (93 dB), Hertz Cento CK 130 (92.5 dB, 49.5 mm depth)
+    - Morel Maximo Ultra 502 MKII (89 dB, better with an external amp)
+  - Woofers in the kick panels, tweeters in the factory spot in the doors behind the mirrors
+  - Rear: 16 cm coaxial for more bass, high sensitivity (~90 dB+). Candidate: Focal ACX 165 (Auditor Evo, matches the ASE-130): 4 Ω, 91.5 dB, 62.5 mm depth. Slim ACX 165 S if too deep
+    - Coupe: speakers in the rear parcel shelf. Check if the opening needs cutting, the depth below the shelf and the boot hinge clearance
+  - Before buying: measure kick panel opening and depth, and tweeter hole in the mirror triangle
+  - Also needed: adapter rings, 1.5 mm² speaker wire, crimp connectors
 - [ ] E30 M3 rear bench seat
 - [ ] Black headliner
 - [ ] Black sun visors (SUNVISORE30G)
