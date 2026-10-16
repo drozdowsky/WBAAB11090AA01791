@@ -26,6 +26,9 @@ Dates before 2026-10 come from git history: they show when the work was written 
 
 ## 2026-06: Door seals (body)
 
+## 2026-05: Fuel pump (fuel)
+- New Bosch OEM fuel pump.
+
 ## 2025: Speeduino update (electrical)
 - Arduino → [STM32](https://github.com/pazi88/STM32_mega). Added SD card logging and CAN.
 

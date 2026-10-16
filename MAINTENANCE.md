@@ -8,7 +8,7 @@ Service work goes into [CHANGELOG.md](CHANGELOG.md). This file holds the referen
 |---|---|---|
 | Gearbox (Getrag 240) | 1.25 L | AMSOIL 75W90 GL4 Synthetic |
 | Rear diff (168 LSD) | 1 L | Motul Gear Competition 75W140 |
-| Engine oil | | Motul 300V 5W40 |
+| Engine oil | 5 L | Motul 300V 5W40. Changed every 6–10 months |
 | Coolant | | BMW coolant, 50/50 with water |
 | Brake fluid | | Bosch DOT 4 |
 
