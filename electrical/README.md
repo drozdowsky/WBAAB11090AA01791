@@ -4,6 +4,7 @@
 - RusEFI plug & play, built by KrycholRC: https://github.com/Krycholrc/rusEFI
 - Alpha-N tune by SU2 Performance. MAP is still read for logs.
 - Crank and cam sensors: hall type
+- Tune files (Stage 1 Speeduino and Stage 2 RusEFI): [tunes/](tunes/README.md)
 
 ## Sensors
 - **TPS:** Variohm XPD-2832-812-214-911-00 (hall type, not a potentiometer). Gives a clean signal, which ITBs on Alpha-N need.

@@ -25,5 +25,6 @@ Contact info is on my GitHub profile.
 - [CHANGELOG.md](CHANGELOG.md): what was done to the car and when
 - [ROADMAP.md](ROADMAP.md): ideas and planned work
 - [MAINTENANCE.md](MAINTENANCE.md): fluids, parts numbers, yearly mileage
+- [electrical/tunes/](electrical/tunes/README.md): TunerStudio projects for Stage 1 (Speeduino) and Stage 2 (RusEFI)
 - [tools/acceleration.html](tools/acceleration.html): 0–100 km/h simulator (open in a browser)
 - `engine/`, `fuel/`, `drivetrain/`, `suspension/`, `brakes/`, `wheels/`, `electrical/`, `interior/`: current spec of each area

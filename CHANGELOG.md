@@ -4,6 +4,9 @@ Newest first. Add cost only when it's worth noting.
 
 Dates before 2026-10 come from git history: they show when the work was written down, not always the exact day it was done.
 
+## 2026-10-17: Tune files added (electrical)
+- Stage 1 Speeduino and Stage 2 RusEFI TunerStudio projects added to [electrical/tunes/](electrical/tunes/README.md).
+
 ## 2026-07-01: Stage 2 dyno (engine)
 - ITBs tuned by SU2 Performance.
 - Result: **200.0 BHP @ 7379 rpm, 208.4 Nm @ 6233 rpm** (30.8 °C, 99.7 kPa). About 203 BHP if corrected to 20 °C.

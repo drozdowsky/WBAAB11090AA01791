@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<msq xmlns="http://www.msefi.com/:msq">
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &lt;br&gt;" writeDate="Sun Sep 20 19:07:23 CEST 2026"/>
+<versionInfo fileFormat="5.0" firmwareInfo="" nPages="5" signature="rusEFI master.2026.09.19.KRC_ECU_V3.3033935405"/>
+<page>
+<pcVariable name="tsCanId">"0"</pcVariable>
+<pcVariable digits="0" name="veLoadSrc">0.0</pcVariable>
+<pcVariable digits="0" name="ignLoadSrc">0.0</pcVariable>
+<pcVariable digits="0" name="afrLoadSrc">0.0</pcVariable>
+<pcVariable digits="0" name="veLoadUnitIdx">1.0</pcVariable>
+<pcVariable digits="0" name="ignLoadUnitIdx">1.0</pcVariable>
+<pcVariable digits="0" name="afrLoadUnitIdx">1.0</pcVariable>
+<pcVariable cols="1" digits="1" name="wueAfrTargetOffset" rows="16" units=":1">
+         -1.5 
+         -1.4 
+         -1.1 
+         -0.9 
+         -0.8 
+         -0.6 
+         -0.6 
+         -0.5 
+         -0.4 
+         -0.4 
+         -0.3 
+         -0.2 
+         -0.2 
+         -0.1 
+         -0.1 
+         0.0 
+      </pcVariable>
+<pcVariable cols="1" digits="0" name="gearCountArray" rows="10" units="Gear">
+         -1.0 
+         0.0 
+         1.0 
+         2.0 
+         3.0 
+         4.0 
+         5.0 
+         6.0 
+         7.0 
+         8.0 
+      </pcVariable>
+<pcVariable cols="1" digits="0" name="solenoidCountArray" rows="6" units="Solenoid">
+         1.0 
+         2.0 
+         3.0 
+         4.0 
+         5.0 
+         6.0 
+      </pcVariable>
+<pcVariable cols="1" digits="0" name="rangeInputArray" rows="6" units="Input">
+         0.0 
+         1.0 
+         2.0 
+         3.0 
+         4.0 
+         5.0 
+      </pcVariable>
+<pcVariable cols="1" digits="0" name="rangeStateArray" rows="9" units="State">
+         0.0 
+         1.0 
+         2.0 
+         3.0 
+         4.0 
+         5.0 
+         6.0 
+         7.0 
+         8.0 
+      </pcVariable>
+</page>
+<page number="0" size="16436"/>
+<page number="1" size="256"/>
+<page number="2" size="2048"/>
+<page number="3" size="1268"/>
+<page number="4" size="8000"/>
+<settings Comment="These setting are only used if this msq is opened without a project."/>
+<userComments Comment="These are user comments that can be related to a particular setting or dialog."/>
+</msq>
