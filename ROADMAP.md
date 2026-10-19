@@ -15,6 +15,8 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 - [ ] Replace the stainless plenum wall with a carbon one (to match the carbon plenum)
 - [ ] T-piece 18x16x18 for the intake plenum
 - [ ] Bigger oil pan with baffles
+  - order in revieW: JLCNC
+  - has to be welded and planned
 - [ ] Dry sump
 - [ ] Shorten the ignition loom
 - [ ] Engine pulleys: new aluminium design, or repaint
@@ -32,7 +34,7 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 - [ ] Replace the O-ring under the fuel cap (16 11 1 179 680)
 
 ## Drivetrain
-- [ ] Z3M 1.9 short shifter + refresh of the shifter parts (OEM+ feel)
+- [ ] Z3 1.9 short shifter + refresh of the shifter parts (OEM+ feel)
 - [ ] Clutch: braided steel line, new master and slave cylinders
 
 ## Handling

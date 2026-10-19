@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Oct 12 09:41:39 CEST 2026"/>
-<versionInfo fileFormat="5.0" firmwareInfo="rusEFI+v20260824%401431655765" nPages="5" signature="rusEFI master.2026.09.19.KRC_ECU_V3.3033935405"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Oct 18 21:01:29 CEST 2026"/>
+<versionInfo fileFormat="5.0" firmwareInfo="rusEFI+v20260824%402647" nPages="5" signature="rusEFI master.2026.09.19.KRC_ECU_V3.3033935405"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
 <pcVariable digits="0" name="veLoadSrc">1.0</pcVariable>
@@ -10,7 +10,7 @@
 <pcVariable digits="0" name="veLoadUnitIdx">2.0</pcVariable>
 <pcVariable digits="0" name="ignLoadUnitIdx">2.0</pcVariable>
 <pcVariable digits="0" name="afrLoadUnitIdx">2.0</pcVariable>
-<pcVariable digits="0" name="tuneCrcPcVariable">38281.0</pcVariable>
+<pcVariable digits="0" name="tuneCrcPcVariable">38137.0</pcVariable>
 <pcVariable cols="1" digits="1" name="wueAfrTargetOffset" rows="16" units=":1">
          -1.5 
          -1.4 
@@ -162,7 +162,7 @@
 <constant name="useSeparateIdleTablesForCrankingTaper">"disabled"</constant>
 <constant name="launchControlEnabled">"disabled"</constant>
 <constant name="antiLagEnabled">"disabled"</constant>
-<constant name="useRunningMathForCranking">"Fixed"</constant>
+<constant name="useRunningMathForCranking">"Fuel Map"</constant>
 <constant name="displayLogicLevelsInEngineSniffer">"no"</constant>
 <constant name="useTLE8888_stepper">"no"</constant>
 <constant name="usescriptTableForCanSniffingFiltering">"no"</constant>
@@ -457,7 +457,7 @@
 <constant name="is_enabled_spi_1">"no"</constant>
 <constant name="is_enabled_spi_2">"yes"</constant>
 <constant name="is_enabled_spi_3">"yes"</constant>
-<constant name="isSdCardEnabled">"disabled"</constant>
+<constant name="isSdCardEnabled">"enabled"</constant>
 <constant name="rusefiVerbose29b">"11 bit"</constant>
 <constant name="rethrowHardFault">"no"</constant>
 <constant name="verboseQuad">"no"</constant>
@@ -1660,6 +1660,9 @@
 <constant name="camSimulatorPin">"NONE"</constant>
 <constant name="camSimulatorPinMode">"default"</constant>
 <constant digits="0" name="anotherCiTest">0.0</constant>
+<constant digits="0" name="device_uid1">0.0</constant>
+<constant digits="0" name="device_uid2">0.0</constant>
+<constant digits="0" name="device_uid3">0.0</constant>
 <constant name="tcu_rangeAnalogInput1">"NONE"</constant>
 <constant name="tcu_rangeAnalogInput2">"NONE"</constant>
 <constant name="tcu_rangeAnalogInput3">"NONE"</constant>
@@ -1862,11 +1865,11 @@
          0.0 
       </constant>
 <constant cols="6" digits="2" name="postCrankingFactor" rows="6" units="mult">
-         2.0 1.9 1.4 1.3 1.05 1.0 
-         1.9 1.8 1.4 1.2 1.05 1.0 
-         1.8 1.7 1.3 1.23 1.04 1.0 
-         1.7 1.6 1.2 1.15 1.04 1.0 
-         1.4 1.2 1.15 1.1 1.03 1.0 
+         2.5 2.3 1.5 1.3 1.2 1.0 
+         2.3 2.2 1.4 1.25 1.15 1.0 
+         2.0 2.0 1.3 1.23 1.1 1.0 
+         1.8 1.7 1.2 1.15 1.08 1.0 
+         1.4 1.2 1.15 1.1 1.05 1.0 
          1.3 1.2 1.15 1.1 1.03 1.0 
       </constant>
 <constant cols="1" digits="0" name="postCrankingDurationBins" rows="6" units="count">
@@ -2361,10 +2364,10 @@
          100.0 
       </constant>
 <constant cols="1" digits="2" name="cltCrankingCorr" rows="8" units="percent">
-         99.0 
-         99.0 
-         99.0 
-         99.0 
+         90.0 
+         90.0 
+         85.0 
+         85.0 
          80.0 
          60.0 
          55.0 
@@ -2497,14 +2500,14 @@
          1.01 
       </constant>
 <constant cols="1" digits="2" name="crankingFuelCoef" rows="8" units="ratio">
-         1.6 
-         1.4 
-         1.2 
-         1.0 
-         0.9 
-         0.6 
-         0.5 
-         0.4 
+         3.0 
+         3.0 
+         2.7 
+         2.5 
+         2.3 
+         1.9666666 
+         1.6333333 
+         1.3 
       </constant>
 <constant cols="1" digits="2" name="crankingFuelBins" rows="8" units="C">
          -20.0 
@@ -5124,7 +5127,7 @@
          0.0 
          0.0 
       </constant>
-<constant name="wizardNumberOfCylinders">"no"</constant>
+<constant name="wizardNumberOfCylinders">"yes"</constant>
 <constant name="wizardFiringOrder">"no"</constant>
 <constant name="wizardMapSensorType">"no"</constant>
 <constant name="wizardCrankTrigger">"no"</constant>
@@ -5809,8 +5812,176 @@
          0.0 
       </constant>
 </page>
-<page number="1" size="256"/>
-<page number="2" size="2048"/>
+<page number="1" size="256">
+<constant cols="1" digits="0" name="highSpeedOffsets" rows="128">
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+      </constant>
+</page>
+<page number="2" size="2048">
+<constant cols="16" digits="1" name="ltft_table_bank1" rows="16" units="%">
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+      </constant>
+<constant cols="16" digits="1" name="ltft_table_bank2" rows="16" units="%">
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+      </constant>
+</page>
 <page number="3" size="1268">
 <constant cols="16" digits="1" name="secondVeTable" rows="16" units="%">
          49.3 49.3 49.4 49.6 50.2 51.4 52.6 53.8 54.4 54.6 54.4 53.7 52.8 51.8 50.9 50.0 
