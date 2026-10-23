@@ -15,7 +15,7 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 - [ ] Replace the stainless plenum wall with a carbon one (to match the carbon plenum)
 - [ ] T-piece 18x16x18 for the intake plenum
 - [ ] Bigger oil pan with baffles
-  - order in revieW: JLCNC
+  - ordered at jlccnc
   - has to be welded and planned
 - [ ] Dry sump
 - [ ] Shorten the ignition loom
@@ -59,7 +59,8 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 ## Electrical
 - [ ] Shorten the knock sensor ground cable
 - [ ] Sorek-style display for critical engine data, instead of the OBC
-- [ ] Oil temp gauge: add one to the current cluster, buy an M3 cluster that has one, or show it on the Sorek-style display
+- [ ] Oil temp gauge: add one to the current cluster or buy an M3 cluster that has one
+  - PCB work in progress
 - [ ] Osram Night Breaker H1 LED main lights
 
 ## Body

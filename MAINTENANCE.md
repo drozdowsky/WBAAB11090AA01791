@@ -17,6 +17,7 @@ Service work goes into [CHANGELOG.md](CHANGELOG.md). This file holds the referen
 | What | Part |
 |---|---|
 | Spark plugs | NGK BKR7E |
+| Coils | BREMI 1748017 |
 | Injectors | Bosch 440cc, 0280155968 |
 | Air filter | K&N RE-0950 |
 | TPS | Variohm XPD-2832-812-214-911-00 |

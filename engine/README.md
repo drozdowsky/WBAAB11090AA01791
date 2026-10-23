@@ -27,7 +27,7 @@ Original engine: M40B16. Since 2023: fully rebuilt M42B18, bored to 85 mm (M42B1
 
 ## Fuel and ignition
 - Bosch "green giant" injectors 440cc (0280155968)
-- BMW M52 coil-on-plug, NGK BKR7E plugs
+- BMW M52 coil-on-plug (BREMI 1748017), NGK BKR7E plugs
 
 ## Exhaust
 - Custom downpipe: 2x 45 mm, 35 cm long

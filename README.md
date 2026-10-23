@@ -11,12 +11,12 @@ Contact info is on my GitHub profile.
 | Engine | M42B18.5 (85 mm bore), forged pistons, GT-R cams, 42 mm ITBs. **200 BHP** on the dyno ([details](engine/README.md)) |
 | ECU | RusEFI, Alpha-N tune by SU2 Performance ([details](electrical/README.md)) |
 | Drivetrain | Getrag 240, 168 diff 4.27 with 25% LSD ([details](drivetrain/README.md)) |
-| Suspension | H&R -35 mm, Bilstein B8, poly bushings, E46 quick rack (no power assist) ([details](suspension/README.md)) |
+| Suspension | H&R -35 mm, Bilstein B8, poly bushings, E46 quick rack ([details](suspension/README.md)) |
 | Brakes | E30 325i OEM, HEL braided lines ([details](brakes/README.md)) |
 | Fuel | 98 RON. Bosch OEM pump, new in 2026-05 ([details](fuel/README.md)) |
 | Wheels | Stock 14" bottlecaps, Vredestein Sportrac 195/65 ([details](wheels/README.md)) |
 | Interior | E30 sport seats, M-Tech 1 wheel, 8k rpm cluster, OBC 1, Blaupunkt Bremen SQR 46 ([details](interior/README.md)) |
-| Weight | About 1100 kg with fluids (not weighed in years). About 182 BHP per tonne |
+| Weight | About 1100 kg with fluids |
 | Paint | Malachitgrün metallic |
 | Factory options | No power steering, no AC |
 
