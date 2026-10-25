@@ -1,0 +1,4 @@
+[submodule "private"]
+	path = private
+	url = git@github.com:drozdowsky/WBAAB11090AA01791-private.git
+	branch = main
