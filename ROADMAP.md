@@ -25,6 +25,11 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 
 ## Exhaust
 - [ ] 3D-printed exhaust manifold
+- [ ] Refresh the current exhaust manifold. Notes in `private/exhaust/manifold-weld.md`
+  - Take it off
+  - Make the outer weld stronger
+  - Blast it
+  - Ceramic coating
 - [ ] Fix leaks
 - [ ] Regenerate the rear muffler
 - [ ] Mechanical flap that opens at 4000 rpm
