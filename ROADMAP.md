@@ -13,6 +13,7 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 - [ ] Check or replace the crank damper
 - [ ] Intake charge pipe: carbon, tapered, with a straight silicone adapter
 - [ ] Replace the stainless plenum wall with a carbon one (to match the carbon plenum)
+- [ ] Even Better Intake sound: wider plenum inlet + tapered snorkel with panel filter. Notes in `private/engine/intake-sound.md`
 - [ ] T-piece 18x16x18 for the intake plenum
 - [ ] Bigger oil pan with baffles
   - ordered at jlccnc
@@ -29,7 +30,7 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 - [ ] Mechanical flap that opens at 4000 rpm
 
 ## Fuel system
-- [ ] Remove the unused fuel vapour line
+- [ ] Remove the unused fuel vapour hardline. Notes in `private/fuel/vapour-vent.md`
 - [ ] Replace the plug housing on the fuel connector (61 13 1 378 408)
 - [ ] Replace the O-ring under the fuel cap (16 11 1 179 680)
 
@@ -61,6 +62,12 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 - [ ] Sorek-style display for critical engine data, instead of the OBC
 - [ ] Oil temp gauge: add one to the current cluster or buy an M3 cluster that has one
   - PCB work in progress
+
+## ECU tuning
+- [ ] Enable long-term fuel trim (LTFT)
+- [ ] Enable knock control
+- [ ] Use MAP in the fueling calculation
+- [ ] Fix SD card logging
 
 ## Body
 - [ ] Fix rock chips

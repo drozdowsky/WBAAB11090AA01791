@@ -23,7 +23,22 @@ Original engine: M40B16. Since 2023: fully rebuilt M42B18, bored to 85 mm (M42B1
 
 ## Intake
 - Individual throttle bodies 42 mm + carbon plenum, by Race Head Engineering
-- K&N cone filter (RE-0950), 90 mm plastic pipe tapered to 80 mm
+
+Air path, from the filter to the head:
+
+| # | Part | Notes |
+|---|---|---|
+| 1 | K&N cone filter (RE-0950) | 90 mm neck |
+| 2 | ABS plastic pipe | tapers from 90 mm to 80 mm, about 20 cm long. Goes through an aluminium heat shield wall, so the filter sits on the cold side, away from engine heat |
+| 3 | Flexible hose | ribbed inside (wire coil), not smooth. About 10 cm long |
+| 4 | Plenum adapter | about 5 cm long. The plenum inlet is 90 mm OD / 80 mm ID. The adapter makes the hose easy to fit and gives a smoother step |
+| 5 | Carbon plenum | open type (no back wall). Big enough for a 2.0 l engine. Volume: to be measured |
+| 6 | Stainless plenum wall | the plenum bolts to it. Holds 4 stainless trumpets with a bell-mouth radius |
+| 7 | Trumpets | taper from about 48 mm to 42 mm |
+| 8 | Throttle bodies | 4x 42 mm |
+| 9 | Head adapter | throttle bodies to the cylinder head. Has the injector bosses |
+
+Runner length (bell mouth to head): about 30 cm, to be measured.
 
 ## Fuel and ignition
 - Bosch "green giant" injectors 440cc (0280155968)
