@@ -3936,3 +3936,277 @@ I 261018 210130.173 [AWT-EventQueue-0] BackgroundWizard - ECU signature invalid 
 18/10/26 21.01.30 :Debug: ############################################# Save Project Backup ##########################################
 18/10/26 21.01.30 :Info: Finalizing Sensors
 Saved user properties successfully
+Starting on hdrozdowski-dev
+TunerStudio 3.3.01 started on Sat Oct 24 00:24:43 CEST 2026
+JRE 1.8.0_91, Mac OS X 26.5.1, x86_64
+java.library.path=/Users/hubertdrozdowsky/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+TunerStudioMS.jar
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:Mac OS X, ClassName:'com.apple.laf.AquaLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+Warning: the font "Times" is not available, so "Lucida Bright" has been substituted, but may have unexpected appearance or behavor. Re-enable the "Times" font to remove this warning.
+ScrollBar.width
+24/10/26 0.24.44 :Debug: no update:defaultFont
+24/10/26 0.24.44 :Info: Initializing File Dialogs.
+24/10/26 0.24.45 :Info: Updating ai & t
+24/10/26 0.24.45 :Info: Loading Language Content.
+24/10/26 0.24.45 :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+24/10/26 0.24.45 :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+24/10/26 0.24.45 :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+24/10/26 0.24.45 :Info: Initializing Plugin Services.
+24/10/26 0.24.45 :Info: Loading Plugins.
+24/10/26 0.24.45 :Debug: Loading Plugin from rusefi_ts_plugin_launcher.jar
+I 261024 002445.364 [AWT-EventQueue-0] TsPluginLauncher - init com.rusefi.ts_plugin.TsPluginLauncher@3346659f 2025.alpha.7 20260725
+24/10/26 0.24.45 :Info: Initializing Help.
+24/10/26 0.24.45 :Info: Initializing Edition Features.
+I 261024 002445.377 [pluginFetchThread] PropertiesHolder - auto_update_root_url=https://rusefi.com/build_server
+I 261024 002445.377 [pluginFetchThread] PropertiesHolder - auto_update_root_url getProperty=https://rusefi.com/build_server
+24/10/26 0.24.45 :Info: Initializing App Events.
+I 261024 002445.383 [pluginFetchThread] ConnectionAndMeta - Connecting to https://rusefi.com/build_server/autoupdate/rusefi_plugin_body.jar?u=a6a95a07-ed38-453d-904c-5f4395686f2e
+24/10/26 0.24.45 :Debug: App Name:TunerStudio, appEdition:MS
+24/10/26 0.24.45 :Info: Initializing User Interface
+I 261024 002445.462 [pluginFetchThread] ConnectionAndMeta - Request Headers: {Cache-Control=[no-cache, no-store, must-revalidate, max-age=0], User-Agent=[RE-Internal-Sync], Expires=[0], Pragma=[no-cache]}
+I 261024 002445.669 [AWT-EventQueue-0] TsPluginLauncher - displayPlugin 
+I 261024 002445.677 [AWT-EventQueue-0] Updater - Using /Users/hubertdrozdowsky/.rusEFI/rusefi_plugin_body.jar
+I 261024 002445.684 [AWT-EventQueue-0] TsHeadlessPlugin - Created TsHeadlessPluginImpl instance
+I 261024 002445.685 [AWT-EventQueue-0] BackgroundWizard - ECU signature invalid for this plugin: 
+I 261024 002446.356 [pluginFetchThread] ConnectionAndMeta - Response code 200
+I 261024 002446.359 [pluginFetchThread] TsPluginBodyFetcher - Server has 9424567 from Fri Oct 23 23:59:30 CEST 2026
+We have size=9400645 modified=Sun Oct 18 20:08:49 CEST 2026 /Users/hubertdrozdowsky/.rusEFI/rusefi_plugin_body.jar
+I 261024 002446.361 [pluginFetchThread] TsPluginBodyFetcher - startDownload
+I 261024 002446.361 [pluginFetchThread] PropertiesHolder - auto_update_root_url=https://rusefi.com/build_server
+I 261024 002446.361 [pluginFetchThread] PropertiesHolder - auto_update_root_url getProperty=https://rusefi.com/build_server
+I 261024 002446.366 [pluginFetchThread] ConnectionAndMeta - Connecting to https://rusefi.com/build_server/autoupdate/rusefi_plugin_body.jar?u=8de48d73-f7fc-4a60-ac88-d85580c6365b
+I 261024 002446.367 [pluginFetchThread] ConnectionAndMeta - Request Headers: {Cache-Control=[no-cache, no-store, must-revalidate, max-age=0], User-Agent=[RE-Internal-Sync], Expires=[0], Pragma=[no-cache]}
+I 261024 002446.897 [pluginFetchThread] ConnectionAndMeta - Response code 200
+24/10/26 0.24.47 :Info: Loading Font list.
+Warning: the font "Times" is not available, so "Lucida Bright" has been substituted, but may have unexpected appearance or behavor. Re-enable the "Times" font to remove this warning.
+I 261024 002447.468 [pluginFetchThread] ConnectionAndMeta - Downloaded 6%
+24/10/26 0.24.47 :Debug: Time to retreive font name list: 76 ms.
+24/10/26 0.24.47 :Info: 
+24/10/26 0.24.47 :Info: Initializing UI Components.
+24/10/26 0.24.47 :Info: Ready
+I 261024 002447.586 [pluginFetchThread] ConnectionAndMeta - Downloaded 12%
+I 261024 002447.656 [pluginFetchThread] ConnectionAndMeta - Downloaded 18%
+I 261024 002447.706 [pluginFetchThread] ConnectionAndMeta - Downloaded 24%
+I 261024 002447.747 [pluginFetchThread] ConnectionAndMeta - Downloaded 30%
+I 261024 002447.779 [pluginFetchThread] ConnectionAndMeta - Downloaded 36%
+I 261024 002447.805 [pluginFetchThread] ConnectionAndMeta - Downloaded 42%
+I 261024 002447.834 [pluginFetchThread] ConnectionAndMeta - Downloaded 48%
+I 261024 002447.850 [pluginFetchThread] ConnectionAndMeta - Downloaded 54%
+I 261024 002447.868 [pluginFetchThread] ConnectionAndMeta - Downloaded 60%
+I 261024 002447.886 [pluginFetchThread] ConnectionAndMeta - Downloaded 66%
+I 261024 002447.900 [pluginFetchThread] ConnectionAndMeta - Downloaded 72%
+I 261024 002447.915 [pluginFetchThread] ConnectionAndMeta - Downloaded 78%
+I 261024 002447.929 [pluginFetchThread] ConnectionAndMeta - Downloaded 84%
+I 261024 002447.944 [pluginFetchThread] ConnectionAndMeta - Downloaded 90%
+I 261024 002447.959 [pluginFetchThread] ConnectionAndMeta - Downloaded 96%
+I 261024 002447.973 [pluginFetchThread] TsPluginBodyFetcher - Downloaded!
+Exception in thread "pluginFetchThread" java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: com/opensr5/ini/IniFileModel
+	at com.rusefi.ts_plugin.headless.TsHeadlessPluginImpl.run(TsHeadlessPluginImpl.java:27)
+	at com.rusefi.ts_plugin.headless.TsHeadlessPlugin.start(TsHeadlessPlugin.java:44)
+	at com.rusefi.ts_plugin.TsPluginLauncher.lambda$new$0(TsPluginLauncher.java:37)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoClassDefFoundError: com/opensr5/ini/IniFileModel
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.opensr5.ini.IniFileModel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 4 more
+Exception in thread "wizard-thread" java.lang.NoClassDefFoundError: com/rusefi/binaryprotocol/BinaryProtocol
+	at com.rusefi.ts_plugin.wizard.BackgroundWizard.lambda$start$0(BackgroundWizard.java:73)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: com.rusefi.binaryprotocol.BinaryProtocol
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+24/10/26 0.24.48 :Info: Opening Project ...
+24/10/26 0.24.48 :Debug: Opening project: /Users/hubertdrozdowsky/Builds/Cache/WBAAB11090AA01791/electrical/tunes/stage-2-rusefi
+24/10/26 0.24.48 :Debug: EventTrigger Data log Reset. expression: 
+24/10/26 0.24.48 :Info: Setting Inactive: Data log, expression: 
+24/10/26 0.24.48 :Debug: EventTrigger Stop Data log Reset. expression: 
+24/10/26 0.24.48 :Info: Setting Inactive: Stop Data log, expression: 
+24/10/26 0.24.48 :Debug: Reading translation file as plain text
+24/10/26 0.24.48 :Info: Supported iniSpecVersion=3.79
+24/10/26 0.24.48 :Debug: Filtered ConfigurationOptionGroup in 19ms.
+24/10/26 0.24.48 :Info: Supported iniSpecVersion=3.79
+24/10/26 0.24.48 :Info: Read file canPcVariables.ini: 1.067625ms
+24/10/26 0.24.48 :Info: Filtered ini: 0.05725ms
+24/10/26 0.24.48 :Info: No iniVersion defined
+24/10/26 0.24.48 :Info: Loading Trigger Wheels
+24/10/26 0.24.48 :Info: Loaded All known ini sections
+24/10/26 0.24.48 :Info: Parsed and validated ini "canPcVariables.ini" in : 10ms.
+24/10/26 0.24.48 :Info: Read file mainController.ini: 4.758458ms
+24/10/26 0.24.48 :Info: Filtered ini: 5.632542ms
+24/10/26 0.24.48 :Info: No iniVersion defined
+24/10/26 0.24.48 :Debug: ini signature: rusEFI master.2026.09.19.KRC_ECU_V3.3033935405
+24/10/26 0.24.48 :Info: Set Write Blocks on = true
+24/10/26 0.24.48 :Warning: Table: fuelTrimTbl9, Assigned y Bin not found: fuelTrims9_table, Problem at:
+[mainController.ini]:[Line:5341]: 		zBins = fuelTrims9_table
+
+24/10/26 0.24.48 :Warning: Table: fuelTrimTbl10, Assigned y Bin not found: fuelTrims10_table, Problem at:
+[mainController.ini]:[Line:5347]: 		zBins = fuelTrims10_table
+
+24/10/26 0.24.48 :Warning: Table: fuelTrimTbl11, Assigned y Bin not found: fuelTrims11_table, Problem at:
+[mainController.ini]:[Line:5353]: 		zBins = fuelTrims11_table
+
+24/10/26 0.24.48 :Warning: Table: fuelTrimTbl12, Assigned y Bin not found: fuelTrims12_table, Problem at:
+[mainController.ini]:[Line:5359]: 		zBins = fuelTrims12_table
+
+24/10/26 0.24.48 :Warning: Table: ignTrimTbl9, Assigned y Bin not found: ignTrims9_table, Problem at:
+[mainController.ini]:[Line:5405]: 		zBins =ignTrims9_table
+
+24/10/26 0.24.48 :Warning: Table: ignTrimTbl10, Assigned y Bin not found: ignTrims10_table, Problem at:
+[mainController.ini]:[Line:5410]: 		zBins = ignTrims10_table
+
+24/10/26 0.24.48 :Warning: Table: ignTrimTbl11, Assigned y Bin not found: ignTrims11_table, Problem at:
+[mainController.ini]:[Line:5415]: 		zBins = ignTrims11_table
+
+24/10/26 0.24.48 :Warning: Table: ignTrimTbl12, Assigned y Bin not found: ignTrims12_table, Problem at:
+[mainController.ini]:[Line:5420]: 		zBins = ignTrims12_table
+
+24/10/26 0.24.48 :Warning: Table: knockGainTbl9, Assigned y Bin not found: knockGains9_table, Problem at:
+[mainController.ini]:[Line:5499]: 		zBins = knockGains9_table
+
+24/10/26 0.24.48 :Warning: Table: knockGainTbl10, Assigned y Bin not found: knockGains10_table, Problem at:
+[mainController.ini]:[Line:5504]: 		zBins = knockGains10_table
+
+24/10/26 0.24.48 :Warning: Table: knockGainTbl11, Assigned y Bin not found: knockGains11_table, Problem at:
+[mainController.ini]:[Line:5509]: 		zBins = knockGains11_table
+
+24/10/26 0.24.48 :Warning: Table: knockGainTbl12, Assigned y Bin not found: knockGains12_table, Problem at:
+[mainController.ini]:[Line:5514]: 		zBins = knockGains12_table
+
+24/10/26 0.24.48 :Info: Loading Trigger Wheels
+24/10/26 0.24.48 :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage29'., Problem at:
+[mainController.ini]:[Line:8969]: 		field = "Injection Stage 2 Output 9 ",					injectionPinsStage29, {isInjectionEnabled && enableStagedInjection && cylindersCount > 8}
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage210'., Problem at:
+[mainController.ini]:[Line:8970]: 		field = "Injection Stage 2 Output 10 ",					injectionPinsStage210, {isInjectionEnabled && enableStagedInjection && cylindersCount > 9}
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage211'., Problem at:
+[mainController.ini]:[Line:8971]: 		field = "Injection Stage 2 Output 11 ",					injectionPinsStage211, {isInjectionEnabled && enableStagedInjection && cylindersCount > 10}
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage212'., Problem at:
+[mainController.ini]:[Line:8972]: 		field = "Injection Stage 2 Output 12 ",					injectionPinsStage212, {isInjectionEnabled && enableStagedInjection && cylindersCount > 11}
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins9'., Problem at:
+[mainController.ini]:[Line:9436]: 		field = "Ignition Output 9",						ignitionPins9
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins10'., Problem at:
+[mainController.ini]:[Line:9437]: 		field = "Ignition Output 10",						ignitionPins10
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins11'., Problem at:
+[mainController.ini]:[Line:9438]: 		field = "Ignition Output 11",						ignitionPins11
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins12'., Problem at:
+[mainController.ini]:[Line:9439]: 		field = "Ignition Output 12",						ignitionPins12
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins9'., Problem at:
+[mainController.ini]:[Line:9448]: 		field = "Injection Output 9 ",					injectionPins9
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins10'., Problem at:
+[mainController.ini]:[Line:9449]: 		field = "Injection Output 10 ",					injectionPins10
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins11'., Problem at:
+[mainController.ini]:[Line:9450]: 		field = "Injection Output 11 ",					injectionPins11
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins12'., Problem at:
+[mainController.ini]:[Line:9451]: 		field = "Injection Output 12 ",					injectionPins12
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'canSniffer3_read'., Problem at:
+[mainController.ini]:[Line:10978]: 		field = "Listen bus (excl. ECU messages)",		canSniffer3_read
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'canSniffer3_listenOurs'., Problem at:
+[mainController.ini]:[Line:10979]: 		field = "Include frames we send",					canSniffer3_listenOurs
+
+24/10/26 0.24.48 :Warning: [UserDefined] field assigned to invalid Constant 'canSniffer3_handleInjected'., Problem at:
+[mainController.ini]:[Line:10980]: 		field = "ECU should handle what sniffer say",	canSniffer3_handleInjected, { 0 }
+
+24/10/26 0.24.48 :Info: Loaded All known ini sections
+24/10/26 0.24.48 :Info: Parsed and validated ini "mainController.ini" in : 377ms.
+24/10/26 0.24.48 :Info: Not Loading default Tools because they were already loaded from the project ini(s)
+24/10/26 0.24.48 :Info: Time to load primary config: 433.7262ms. used cached config: false
+24/10/26 0.24.48 :Debug: set baud to 115200
+24/10/26 0.24.48 :Info: Setting connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+24/10/26 0.24.48 :Debug: Adding Configuration: stage-2-rusefi
+24/10/26 0.24.48 :Info: Setting Active: TriggeredPage 1 Refresh:  triggerPageRefreshFlag , expression:  triggerPageRefreshFlag 
+24/10/26 0.24.48 :Debug: Activating Event Trigger: TriggeredPage 1 Refresh:  triggerPageRefreshFlag 
+24/10/26 0.24.48 :Info: Setting Active: TriggeredPage 3 Refresh:  ltftPageRefreshFlag , expression:  ltftPageRefreshFlag 
+24/10/26 0.24.48 :Debug: Activating Event Trigger: TriggeredPage 3 Refresh:  ltftPageRefreshFlag 
+24/10/26 0.24.48 :Info: Setting Active: TriggeredPage 4 Refresh:  triggerPageRefreshFlag , expression:  triggerPageRefreshFlag 
+24/10/26 0.24.48 :Debug: Activating Event Trigger: TriggeredPage 4 Refresh:  triggerPageRefreshFlag 
+24/10/26 0.24.48 :Debug: Fill Constants: 45
+MSmain: No check, last update check=Sun Oct 18 19:49:56 CEST 2026
+24/10/26 0.24.48 :Debug: EventTrigger TriggeredPage 1 Refresh:  triggerPageRefreshFlag  Triggered. expression:  triggerPageRefreshFlag 
+24/10/26 0.24.48 :Debug: TriggeredPage 1 Refresh:  triggerPageRefreshFlag : Trigger Expression:  triggerPageRefreshFlag  = NaN
+24/10/26 0.24.48 :Debug: EventTrigger TriggeredPage 3 Refresh:  ltftPageRefreshFlag  Triggered. expression:  ltftPageRefreshFlag 
+24/10/26 0.24.48 :Debug: TriggeredPage 3 Refresh:  ltftPageRefreshFlag : Trigger Expression:  ltftPageRefreshFlag  = NaN
+24/10/26 0.24.48 :Debug: EventTrigger TriggeredPage 4 Refresh:  triggerPageRefreshFlag  Triggered. expression:  triggerPageRefreshFlag 
+24/10/26 0.24.48 :Debug: TriggeredPage 4 Refresh:  triggerPageRefreshFlag : Trigger Expression:  triggerPageRefreshFlag  = NaN
+24/10/26 0.24.49 :Info: IniUpdate: No updates available.
+24/10/26 0.24.49 :Info: Tune opened, 9285 bytes updated. File:/Users/hubertdrozdowsky/Builds/Cache/WBAAB11090AA01791/electrical/tunes/stage-2-rusefi/CurrentTune.msq
+[Duplicate entry] received 2 times: Info: Tune opened, 9285 bytes updated. File:/Users/hubertdrozdowsky/Builds/Cache/WBAAB11090AA01791/electrical/tunes/stage-2-rusefi/CurrentTune.msq
+24/10/26 0.24.49 :Info: dirtyData.size(): 0
+24/10/26 0.24.49 :Info: IncUpdate: No updates available.
+24/10/26 0.24.49 :Info: dirtyData.size(): 0
+24/10/26 0.24.49 :Debug: Flush lasted: 75ms.
+24/10/26 0.24.49 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+24/10/26 0.24.49 :Debug: Flush lasted: 75ms.
+24/10/26 0.24.49 :Debug: Skip Burn, last write page: -2
+24/10/26 0.24.49 :Info: !!! Loaded config in 987
+I 261024 002449.381 [ProjectOpenThread] TsPluginLauncher - displayPlugin rusEFI master.2026.09.19.KRC_ECU_V3.3033935405
+24/10/26 0.24.49 :Info: !!! Activated Project 1314
+24/10/26 0.24.49 :Info: Opening Gauge Cluster..
+24/10/26 0.24.49 :Info: Time to load uncached dash: 188.08992ms, file: dashboard.dash
+24/10/26 0.24.49 :Warning: Failed to subscribe DashComp to OutputChannel wbo0_hasFault
+Not found in current configuration.
+24/10/26 0.24.49 :Debug: High Speed Paint: false
+24/10/26 0.24.50 :Info: 
+24/10/26 0.24.50 :Info: Com Thread created: COMM Thread7881.5103412970375
+24/10/26 0.24.50 :Info: Comm Manager for stage-2-rusefi Started, thread ID: COMM Thread7881.5103412970375
+24/10/26 0.24.50 :Info: Connecting to controller on: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+24/10/26 0.24.50 :Info: endModalBlock called, but Root Pane is not a ProgressPane.
+24/10/26 0.24.50 :Debug: !!! Opened Dash 1960
+24/10/26 0.24.50 :Info: stage-2-rusefi Ready
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+24/10/26 0.24.50 :Info: EventTrigger: stage-2-rusefi.TriggeredPage 1 Refresh:  triggerPageRefreshFlag  not active.
+24/10/26 0.24.50 :Info: EventTrigger: stage-2-rusefi.TriggeredPage 3 Refresh:  ltftPageRefreshFlag  not active.
+24/10/26 0.24.50 :Info: EventTrigger: stage-2-rusefi.TriggeredPage 4 Refresh:  triggerPageRefreshFlag  not active.
+24/10/26 0.24.50 :Debug: Tuning View Files loaded in 324.9727ms.
+24/10/26 0.24.50 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+MSad: No check, last update check=Sun Oct 18 19:49:59 CEST 2026
+24/10/26 0.24.51 :Info: Initiating read page 1 : 196:1464
+24/10/26 0.25.15 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+24/10/26 0.25.15 :Debug: Flush lasted: 74ms.
+24/10/26 0.25.15 :Debug: Skip Burn, last write page: -2
+24/10/26 20.35.48 :Info: Time to save msq: 150.06213
+24/10/26 20.35.48 :Info: closeApp Called
+24/10/26 20.35.48 :Debug: TuneLog Editor set text
+24/10/26 20.35.48 :Debug: Fill Constants: 33
+24/10/26 20.35.48 :Info: Skip Restore Point for 'stage-2-rusefi' because nothing changed since: stage-2-rusefi_2026-10-18_19.51.00.msq
+24/10/26 20.35.48 :Info: Time to save msq: 27.445292
+24/10/26 20.35.48 :Debug: goOffline Starting, Time:0
+24/10/26 20.35.48 :Info: Deactivated Turbo Baud, goOffline
+24/10/26 20.35.48 :Debug: goOffline about to stopProcessing, Time:0
+24/10/26 20.35.48 :Debug: goOffline closed port, Time:0
+24/10/26 20.35.49 :Info: stage-2-rusefi ComThread stopped COMM Thread7881.5103412970375
+24/10/26 20.35.49 :Debug: goOffline comm thread stopped, Time:275
+24/10/26 20.35.49 :Debug: No Remaining Queue Write instructions
+24/10/26 20.35.49 :Debug: removing Configuration: stage-2-rusefi
+I 261024 203549.357 [AWT-EventQueue-0] TsPluginLauncher - displayPlugin 
+I 261024 203549.358 [AWT-EventQueue-0] BackgroundWizard - ECU signature invalid for this plugin: 
+24/10/26 20.35.49 :Debug: ############################################# Save Project Backup ##########################################
+24/10/26 20.35.49 :Info: Finalizing Sensors
+Saved user properties successfully

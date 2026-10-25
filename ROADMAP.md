@@ -61,7 +61,6 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 - [ ] Sorek-style display for critical engine data, instead of the OBC
 - [ ] Oil temp gauge: add one to the current cluster or buy an M3 cluster that has one
   - PCB work in progress
-- [ ] Osram Night Breaker H1 LED main lights
 
 ## Body
 - [ ] Fix rock chips
@@ -71,6 +70,7 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 - [ ] Lower left window trim
 - [ ] Passenger door step cover
 - [ ] Restore front lights
+- [ ] Osram Night Breaker H1 LED main lights
 
 ## Interior
 - [ ] Heater refresh (heater core)
