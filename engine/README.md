@@ -4,6 +4,7 @@ Original engine: M40B16. Since 2023: fully rebuilt M42B18, bored to 85 mm (M42B1
 
 ## Bottom end
 - Forged pistons from [CPS Pistoni Stampati](https://www.pistonistampati.it/) (ring gap: Sport N/A)
+- Compression ratio: 10.5:1
 - Crank, rods and flywheel fully balanced
 - Main and rod bearings: standard size, ACL Race Bearings
 
@@ -45,8 +46,26 @@ Runner length (bell mouth to head): about 30 cm, to be measured.
 - BMW M52 coil-on-plug (BREMI 1748017), NGK BKR7E plugs
 
 ## Exhaust
-- Custom downpipe: 2x 45 mm, 35 cm long
-- 2.25" exhaust by Kowalsky Custom (Wrocław): custom 100one.pl mid muffler + Scorpion 318iS DTM mufflers
+- Custom downpipe and 2.25" (57 mm) system by Kowalsky Custom (Wrocław). Mid muffler from 100one.pl (2025-05), rear muffler 318iS DTM from Scorpion.
+
+Gas path, from the head to the tips:
+
+| # | Part | Notes |
+|---|---|---|
+| 1 | OEM M42 manifold, 4-2 | Ported: the inside weld is ground away on both the head side and the outlet side. Weld notes in `private/exhaust/manifold-weld.md` |
+| 2 | Downpipe | 2x 45 mm OD / 42 mm ID, about 35 cm long, then merges into one 2.25" pipe |
+| 3 | Flex pipe | 2.25" |
+| 4 | Mid muffler, 100one.pl | Straight-through, perforated tube. Elliptical case 175 x 105 mm, 550 mm long. Packed with a lot of steel wool and ceramic wool |
+| 5 | Pipe | 2.25" |
+| 6 | Rear muffler, Scorpion 318iS DTM | 2.25" inlet, twin DTM-style tips. Details below |
+
+### Rear muffler (Scorpion)
+
+Technical drawing: `private/RearMufflerScorpionExhaust.pdf`
+
+- Overall length about 1040 mm. Inlet pipe about 430 mm, case about 430 mm, tips about 155 mm.
+- Inside the case: an empty chamber at the inlet end, then perforated tubes through packing (absorptive section, about 410 mm), then a second chamber at the outlet end that feeds both tips.
+- Tips: 76 mm, perforated inside (also absorptive).
 
 ## Cooling
 - SPAL electric fan, switched on by the ECU at 92 °C. Wiring: [electrical/README.md](../electrical/README.md#radiator-fan)

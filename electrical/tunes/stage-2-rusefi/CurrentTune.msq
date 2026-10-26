@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Oct 24 20:35:48 CEST 2026"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Oct 26 10:52:25 CET 2026"/>
 <versionInfo fileFormat="5.0" firmwareInfo="rusEFI+v20260824%402647" nPages="5" signature="rusEFI master.2026.09.19.KRC_ECU_V3.3033935405"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
