@@ -32,7 +32,6 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
   - Ceramic coating
 - [ ] Fix leaks
 - [ ] Regenerate the rear muffler
-- [ ] Mechanical flap that opens at 4000 rpm
 
 ## Fuel system
 - [ ] Remove the unused fuel vapour hardline. Notes in `private/fuel/vapour-vent.md`
@@ -40,7 +39,7 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 - [ ] Replace the O-ring under the fuel cap (16 11 1 179 680)
 
 ## Drivetrain
-- [ ] Z3 1.9 short shifter + refresh of the shifter parts (OEM+ feel)
+- [ ] DSSR (Double Shear Shifter Rod)
 - [ ] Clutch: braided steel line, new master and slave cylinders
 
 ## Handling
@@ -49,6 +48,7 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 - [ ] E30 M3 aluminium front control arms (do together with the MRT kit)
 - [ ] MRT Engineering roll-center / bump steer correction kit
 - [ ] E30 M3 offset (eccentric) control arm bushings, polyurethane
+  - In progress
 
 ## Brakes
 - [ ] Booster delete with dual master cylinders (Massive Brakes)
@@ -64,9 +64,11 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 
 ## Electrical
 - [ ] Shorten the knock sensor ground cable
+- [ ] Replace the alternator cable (12 52 1 312 124, 170 mm). AWG to be measured
 - [ ] Sorek-style display for critical engine data, instead of the OBC
+  - In progress
 - [ ] Oil temp gauge: add one to the current cluster or buy an M3 cluster that has one
-  - PCB work in progress
+  - In progress
 
 ## ECU tuning
 - [ ] Enable long-term fuel trim (LTFT)
@@ -86,6 +88,7 @@ Ideas and planned work. When something is done, delete it here and add it to [CH
 
 ## Interior
 - [ ] Heater refresh (heater core)
+  - In progress
 - [ ] Speakers for the Blaupunkt Bremen SQR 46 (internal amp, 4 x 24 W RMS, no external amp)
   - Front: Focal Auditor Evo ASE-130. 13 cm component set, 4 Ω, 90 dB, Mylar inverted dome tweeter, external passive crossovers (12 dB/oct), 55.5 mm depth
   - Front alternatives:

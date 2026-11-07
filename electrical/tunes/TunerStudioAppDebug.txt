@@ -4488,3 +4488,1753 @@ I 261026 105226.301 [AWT-EventQueue-0] BackgroundWizard - ECU signature invalid 
 26/10/26 10.52.26 :Debug: ############################################# Save Project Backup ##########################################
 26/10/26 10.52.26 :Info: Finalizing Sensors
 Saved user properties successfully
+Starting on hdrozdowski-dev
+TunerStudio 3.3.01 started on Mon Nov 02 09:12:32 CET 2026
+JRE 1.8.0_91, Mac OS X 26.5.1, x86_64
+java.library.path=/Users/hubertdrozdowsky/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+TunerStudioMS.jar
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:Mac OS X, ClassName:'com.apple.laf.AquaLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+02/11/26 9.12.32 :Debug: hid: 1223.7623
+Warning: the font "Times" is not available, so "Lucida Bright" has been substituted, but may have unexpected appearance or behavor. Re-enable the "Times" font to remove this warning.
+ScrollBar.width
+02/11/26 9.12.32 :Debug: no update:defaultFont
+02/11/26 9.12.33 :Info: Initializing File Dialogs.
+02/11/26 9.12.33 :Info: Updating ai & t
+02/11/26 9.12.33 :Info: Loading Language Content.
+02/11/26 9.12.33 :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+02/11/26 9.12.33 :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+02/11/26 9.12.33 :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+02/11/26 9.12.33 :Info: Initializing Plugin Services.
+02/11/26 9.12.33 :Info: Loading Plugins.
+02/11/26 9.12.33 :Debug: Loading Plugin from rusefi_ts_plugin_launcher.jar
+I 261102 091233.629 [AWT-EventQueue-0] TsPluginLauncher - init com.rusefi.ts_plugin.TsPluginLauncher@5f77ede0 2025.alpha.7 20260725
+02/11/26 9.12.33 :Info: Initializing Help.
+02/11/26 9.12.33 :Info: Initializing Edition Features.
+I 261102 091233.641 [pluginFetchThread] PropertiesHolder - auto_update_root_url=https://rusefi.com/build_server
+I 261102 091233.641 [pluginFetchThread] PropertiesHolder - auto_update_root_url getProperty=https://rusefi.com/build_server
+02/11/26 9.12.33 :Info: Initializing App Events.
+02/11/26 9.12.33 :Debug: App Name:TunerStudio, appEdition:MS
+I 261102 091233.648 [pluginFetchThread] ConnectionAndMeta - Connecting to https://rusefi.com/build_server/autoupdate/rusefi_plugin_body.jar?u=e04f6a93-bdf8-4b16-a6ad-7f6bca1c5296
+02/11/26 9.12.33 :Info: Initializing User Interface
+I 261102 091233.727 [pluginFetchThread] ConnectionAndMeta - Request Headers: {Cache-Control=[no-cache, no-store, must-revalidate, max-age=0], User-Agent=[RE-Internal-Sync], Expires=[0], Pragma=[no-cache]}
+I 261102 091233.937 [AWT-EventQueue-0] TsPluginLauncher - displayPlugin 
+I 261102 091233.945 [AWT-EventQueue-0] Updater - Using /Users/hubertdrozdowsky/.rusEFI/rusefi_plugin_body.jar
+I 261102 091233.954 [AWT-EventQueue-0] TsHeadlessPlugin - Created TsHeadlessPluginImpl instance
+I 261102 091233.957 [AWT-EventQueue-0] BackgroundWizard - ECU signature invalid for this plugin: 
+I 261102 091234.741 [pluginFetchThread] ConnectionAndMeta - Response code 200
+I 261102 091234.742 [pluginFetchThread] TsPluginBodyFetcher - Server has 9438762 from Mon Nov 02 01:56:30 CET 2026
+We have size=9425581 modified=Mon Oct 26 02:08:18 CET 2026 /Users/hubertdrozdowsky/.rusEFI/rusefi_plugin_body.jar
+I 261102 091234.742 [pluginFetchThread] TsPluginBodyFetcher - startDownload
+I 261102 091234.742 [pluginFetchThread] PropertiesHolder - auto_update_root_url=https://rusefi.com/build_server
+I 261102 091234.742 [pluginFetchThread] PropertiesHolder - auto_update_root_url getProperty=https://rusefi.com/build_server
+I 261102 091234.744 [pluginFetchThread] ConnectionAndMeta - Connecting to https://rusefi.com/build_server/autoupdate/rusefi_plugin_body.jar?u=fe588927-e7b4-45ea-a14e-2eaf0ed801d7
+I 261102 091234.744 [pluginFetchThread] ConnectionAndMeta - Request Headers: {Cache-Control=[no-cache, no-store, must-revalidate, max-age=0], User-Agent=[RE-Internal-Sync], Expires=[0], Pragma=[no-cache]}
+I 261102 091235.412 [pluginFetchThread] ConnectionAndMeta - Response code 200
+02/11/26 9.12.35 :Info: Loading Font list.
+Warning: the font "Times" is not available, so "Lucida Bright" has been substituted, but may have unexpected appearance or behavor. Re-enable the "Times" font to remove this warning.
+02/11/26 9.12.35 :Debug: Time to retreive font name list: 65 ms.
+02/11/26 9.12.35 :Info: 
+02/11/26 9.12.35 :Info: Initializing UI Components.
+02/11/26 9.12.35 :Info: Ready
+02/11/26 9.12.36 :Info: Opening Project ...
+02/11/26 9.12.36 :Debug: Opening project: /Users/hubertdrozdowsky/Builds/Cache/WBAAB11090AA01791/electrical/tunes/stage-2-rusefi
+02/11/26 9.12.36 :Debug: EventTrigger Data log Reset. expression: 
+02/11/26 9.12.36 :Info: Setting Inactive: Data log, expression: 
+02/11/26 9.12.36 :Debug: EventTrigger Stop Data log Reset. expression: 
+02/11/26 9.12.36 :Info: Setting Inactive: Stop Data log, expression: 
+I 261102 091236.071 [pluginFetchThread] ConnectionAndMeta - Downloaded 6%
+02/11/26 9.12.36 :Debug: Reading translation file as plain text
+02/11/26 9.12.36 :Info: Supported iniSpecVersion=3.79
+02/11/26 9.12.36 :Debug: Filtered ConfigurationOptionGroup in 27ms.
+02/11/26 9.12.36 :Info: Supported iniSpecVersion=3.79
+02/11/26 9.12.36 :Info: Read file canPcVariables.ini: 2.045417ms
+02/11/26 9.12.36 :Info: Filtered ini: 0.097792ms
+02/11/26 9.12.36 :Info: No iniVersion defined
+02/11/26 9.12.36 :Info: Loading Trigger Wheels
+02/11/26 9.12.36 :Info: Loaded All known ini sections
+02/11/26 9.12.36 :Info: Parsed and validated ini "canPcVariables.ini" in : 12ms.
+02/11/26 9.12.36 :Info: Read file mainController.ini: 9.027875ms
+02/11/26 9.12.36 :Info: Filtered ini: 6.503291ms
+02/11/26 9.12.36 :Info: No iniVersion defined
+02/11/26 9.12.36 :Debug: ini signature: rusEFI master.2026.09.19.KRC_ECU_V3.3033935405
+02/11/26 9.12.36 :Info: Set Write Blocks on = true
+02/11/26 9.12.36 :Warning: Table: fuelTrimTbl9, Assigned y Bin not found: fuelTrims9_table, Problem at:
+[mainController.ini]:[Line:5341]: 		zBins = fuelTrims9_table
+
+02/11/26 9.12.36 :Warning: Table: fuelTrimTbl10, Assigned y Bin not found: fuelTrims10_table, Problem at:
+[mainController.ini]:[Line:5347]: 		zBins = fuelTrims10_table
+
+02/11/26 9.12.36 :Warning: Table: fuelTrimTbl11, Assigned y Bin not found: fuelTrims11_table, Problem at:
+[mainController.ini]:[Line:5353]: 		zBins = fuelTrims11_table
+
+02/11/26 9.12.36 :Warning: Table: fuelTrimTbl12, Assigned y Bin not found: fuelTrims12_table, Problem at:
+[mainController.ini]:[Line:5359]: 		zBins = fuelTrims12_table
+
+02/11/26 9.12.36 :Warning: Table: ignTrimTbl9, Assigned y Bin not found: ignTrims9_table, Problem at:
+[mainController.ini]:[Line:5405]: 		zBins =ignTrims9_table
+
+02/11/26 9.12.36 :Warning: Table: ignTrimTbl10, Assigned y Bin not found: ignTrims10_table, Problem at:
+[mainController.ini]:[Line:5410]: 		zBins = ignTrims10_table
+
+02/11/26 9.12.36 :Warning: Table: ignTrimTbl11, Assigned y Bin not found: ignTrims11_table, Problem at:
+[mainController.ini]:[Line:5415]: 		zBins = ignTrims11_table
+
+02/11/26 9.12.36 :Warning: Table: ignTrimTbl12, Assigned y Bin not found: ignTrims12_table, Problem at:
+[mainController.ini]:[Line:5420]: 		zBins = ignTrims12_table
+
+02/11/26 9.12.36 :Warning: Table: knockGainTbl9, Assigned y Bin not found: knockGains9_table, Problem at:
+[mainController.ini]:[Line:5499]: 		zBins = knockGains9_table
+
+02/11/26 9.12.36 :Warning: Table: knockGainTbl10, Assigned y Bin not found: knockGains10_table, Problem at:
+[mainController.ini]:[Line:5504]: 		zBins = knockGains10_table
+
+02/11/26 9.12.36 :Warning: Table: knockGainTbl11, Assigned y Bin not found: knockGains11_table, Problem at:
+[mainController.ini]:[Line:5509]: 		zBins = knockGains11_table
+
+02/11/26 9.12.36 :Warning: Table: knockGainTbl12, Assigned y Bin not found: knockGains12_table, Problem at:
+[mainController.ini]:[Line:5514]: 		zBins = knockGains12_table
+
+02/11/26 9.12.36 :Info: Loading Trigger Wheels
+02/11/26 9.12.36 :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+I 261102 091236.490 [pluginFetchThread] ConnectionAndMeta - Downloaded 12%
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage29'., Problem at:
+[mainController.ini]:[Line:8969]: 		field = "Injection Stage 2 Output 9 ",					injectionPinsStage29, {isInjectionEnabled && enableStagedInjection && cylindersCount > 8}
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage210'., Problem at:
+[mainController.ini]:[Line:8970]: 		field = "Injection Stage 2 Output 10 ",					injectionPinsStage210, {isInjectionEnabled && enableStagedInjection && cylindersCount > 9}
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage211'., Problem at:
+[mainController.ini]:[Line:8971]: 		field = "Injection Stage 2 Output 11 ",					injectionPinsStage211, {isInjectionEnabled && enableStagedInjection && cylindersCount > 10}
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage212'., Problem at:
+[mainController.ini]:[Line:8972]: 		field = "Injection Stage 2 Output 12 ",					injectionPinsStage212, {isInjectionEnabled && enableStagedInjection && cylindersCount > 11}
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins9'., Problem at:
+[mainController.ini]:[Line:9436]: 		field = "Ignition Output 9",						ignitionPins9
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins10'., Problem at:
+[mainController.ini]:[Line:9437]: 		field = "Ignition Output 10",						ignitionPins10
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins11'., Problem at:
+[mainController.ini]:[Line:9438]: 		field = "Ignition Output 11",						ignitionPins11
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins12'., Problem at:
+[mainController.ini]:[Line:9439]: 		field = "Ignition Output 12",						ignitionPins12
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins9'., Problem at:
+[mainController.ini]:[Line:9448]: 		field = "Injection Output 9 ",					injectionPins9
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins10'., Problem at:
+[mainController.ini]:[Line:9449]: 		field = "Injection Output 10 ",					injectionPins10
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins11'., Problem at:
+[mainController.ini]:[Line:9450]: 		field = "Injection Output 11 ",					injectionPins11
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins12'., Problem at:
+[mainController.ini]:[Line:9451]: 		field = "Injection Output 12 ",					injectionPins12
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'canSniffer3_read'., Problem at:
+[mainController.ini]:[Line:10978]: 		field = "Listen bus (excl. ECU messages)",		canSniffer3_read
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'canSniffer3_listenOurs'., Problem at:
+[mainController.ini]:[Line:10979]: 		field = "Include frames we send",					canSniffer3_listenOurs
+
+02/11/26 9.12.36 :Warning: [UserDefined] field assigned to invalid Constant 'canSniffer3_handleInjected'., Problem at:
+[mainController.ini]:[Line:10980]: 		field = "ECU should handle what sniffer say",	canSniffer3_handleInjected, { 0 }
+
+02/11/26 9.12.36 :Info: Loaded All known ini sections
+02/11/26 9.12.36 :Info: Parsed and validated ini "mainController.ini" in : 477ms.
+02/11/26 9.12.36 :Info: Not Loading default Tools because they were already loaded from the project ini(s)
+02/11/26 9.12.36 :Info: Time to load primary config: 563.97015ms. used cached config: false
+02/11/26 9.12.36 :Debug: set baud to 115200
+02/11/26 9.12.36 :Info: Setting connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 9.12.36 :Debug: Adding Configuration: stage-2-rusefi
+02/11/26 9.12.36 :Info: Setting Active: TriggeredPage 1 Refresh:  triggerPageRefreshFlag , expression:  triggerPageRefreshFlag 
+02/11/26 9.12.36 :Debug: Activating Event Trigger: TriggeredPage 1 Refresh:  triggerPageRefreshFlag 
+02/11/26 9.12.36 :Info: Setting Active: TriggeredPage 3 Refresh:  ltftPageRefreshFlag , expression:  ltftPageRefreshFlag 
+02/11/26 9.12.36 :Debug: Activating Event Trigger: TriggeredPage 3 Refresh:  ltftPageRefreshFlag 
+02/11/26 9.12.36 :Info: Setting Active: TriggeredPage 4 Refresh:  triggerPageRefreshFlag , expression:  triggerPageRefreshFlag 
+02/11/26 9.12.36 :Debug: Activating Event Trigger: TriggeredPage 4 Refresh:  triggerPageRefreshFlag 
+02/11/26 9.12.36 :Debug: Fill Constants: 53
+02/11/26 9.12.36 :Debug: EventTrigger TriggeredPage 1 Refresh:  triggerPageRefreshFlag  Triggered. expression:  triggerPageRefreshFlag 
+02/11/26 9.12.36 :Debug: TriggeredPage 1 Refresh:  triggerPageRefreshFlag : Trigger Expression:  triggerPageRefreshFlag  = NaN
+02/11/26 9.12.36 :Debug: EventTrigger TriggeredPage 3 Refresh:  ltftPageRefreshFlag  Triggered. expression:  ltftPageRefreshFlag 
+02/11/26 9.12.36 :Debug: TriggeredPage 3 Refresh:  ltftPageRefreshFlag : Trigger Expression:  ltftPageRefreshFlag  = NaN
+02/11/26 9.12.36 :Debug: EventTrigger TriggeredPage 4 Refresh:  triggerPageRefreshFlag  Triggered. expression:  triggerPageRefreshFlag 
+02/11/26 9.12.36 :Debug: TriggeredPage 4 Refresh:  triggerPageRefreshFlag : Trigger Expression:  triggerPageRefreshFlag  = NaN
+I 261102 091236.833 [pluginFetchThread] ConnectionAndMeta - Downloaded 18%
+02/11/26 9.12.36 :Info: Tune opened, 9285 bytes updated. File:/Users/hubertdrozdowsky/Builds/Cache/WBAAB11090AA01791/electrical/tunes/stage-2-rusefi/CurrentTune.msq
+[Duplicate entry] received 2 times: Info: Tune opened, 9285 bytes updated. File:/Users/hubertdrozdowsky/Builds/Cache/WBAAB11090AA01791/electrical/tunes/stage-2-rusefi/CurrentTune.msq
+02/11/26 9.12.36 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.12.37 :Debug: Flush lasted: 75ms.
+02/11/26 9.12.37 :Info: dirtyData.size(): 0
+I 261102 091237.117 [pluginFetchThread] ConnectionAndMeta - Downloaded 24%
+MSmain: No check, last update check=Mon Oct 26 10:50:19 CET 2026
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.12.37 :Debug: Flush lasted: 75ms.
+02/11/26 9.12.37 :Debug: Skip Burn, last write page: -2
+02/11/26 9.12.37 :Info: !!! Loaded config in 1141
+I 261102 091237.262 [ProjectOpenThread] TsPluginLauncher - displayPlugin rusEFI master.2026.09.19.KRC_ECU_V3.3033935405
+I 261102 091237.513 [pluginFetchThread] ConnectionAndMeta - Downloaded 30%
+02/11/26 9.12.37 :Info: !!! Activated Project 1612
+02/11/26 9.12.37 :Info: Opening Gauge Cluster..
+02/11/26 9.12.37 :Info: IncUpdate: No updates available.
+02/11/26 9.12.37 :Info: IniUpdate: No updates available.
+02/11/26 9.12.37 :Info: Time to load uncached dash: 151.7625ms, file: dashboard.dash
+02/11/26 9.12.37 :Warning: Failed to subscribe DashComp to OutputChannel wbo0_hasFault
+Not found in current configuration.
+I 261102 091237.867 [pluginFetchThread] ConnectionAndMeta - Downloaded 36%
+02/11/26 9.12.37 :Debug: High Speed Paint: false
+I 261102 091238.162 [pluginFetchThread] ConnectionAndMeta - Downloaded 42%
+02/11/26 9.12.38 :Info: EventTrigger: stage-2-rusefi.TriggeredPage 1 Refresh:  triggerPageRefreshFlag  not active.
+02/11/26 9.12.38 :Info: EventTrigger: stage-2-rusefi.TriggeredPage 3 Refresh:  ltftPageRefreshFlag  not active.
+02/11/26 9.12.38 :Info: EventTrigger: stage-2-rusefi.TriggeredPage 4 Refresh:  triggerPageRefreshFlag  not active.
+02/11/26 9.12.38 :Info: 
+02/11/26 9.12.38 :Info: Com Thread created: COMM Thread60116.644600299616
+02/11/26 9.12.38 :Info: Comm Manager for stage-2-rusefi Started, thread ID: COMM Thread60116.644600299616
+02/11/26 9.12.38 :Info: Connecting to controller on: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 9.12.38 :Info: endModalBlock called, but Root Pane is not a ProgressPane.
+02/11/26 9.12.38 :Debug: !!! Opened Dash 2222
+02/11/26 9.12.38 :Info: stage-2-rusefi Ready
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+I 261102 091238.565 [pluginFetchThread] ConnectionAndMeta - Downloaded 48%
+02/11/26 9.12.38 :Debug: Tuning View Files loaded in 321.6639ms.
+I 261102 091238.892 [pluginFetchThread] ConnectionAndMeta - Downloaded 54%
+02/11/26 9.12.39 :Info: Comm Read Thread Change! Old Thread:null, new Thread:COMM Thread60116.644600299616
+I 261102 091239.282 [pluginFetchThread] ConnectionAndMeta - Downloaded 60%
+02/11/26 9.12.39 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 9.12.39 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 9.12.39 :Info: CRC Mismatch, will need to refresh page from controller 
+02/11/26 9.12.39 :Info:    CRC from controller page 1:x9F x05 x94 xF9                                                       ....
+02/11/26 9.12.39 :Info:    Local Data CRC for page 1: x13 xA9 xD9 xE8                                                       ....
+I 261102 091239.650 [pluginFetchThread] ConnectionAndMeta - Downloaded 66%
+I 261102 091239.987 [pluginFetchThread] ConnectionAndMeta - Downloaded 72%
+MSad: No check, last update check=Mon Oct 26 10:50:23 CET 2026
+I 261102 091240.303 [pluginFetchThread] ConnectionAndMeta - Downloaded 78%
+02/11/26 9.12.40 :Debug: Read page time: 935ms.
+02/11/26 9.12.40 :Info: Checksum page 1 data read: x9F x05 x94 xF9                                                       ....
+02/11/26 9.12.40 :Debug: CRC matches for page 2:x0D x96 x85 x58                                                       ...X
+02/11/26 9.12.40 :Info: CrC matched skipped controller read on page:2
+02/11/26 9.12.40 :Debug: CRC matches for page 3:xF1 xE8 xBA x9E                                                       ....
+02/11/26 9.12.40 :Info: CrC matched skipped controller read on page:3
+02/11/26 9.12.40 :Debug: CRC matches for page 4:xEE x16 xB6 x0D                                                       ....
+02/11/26 9.12.40 :Info: CrC matched skipped controller read on page:4
+02/11/26 9.12.40 :Debug: CRC matches for page 5:x4A x4B xE8 x64                                                       JK.d
+02/11/26 9.12.40 :Info: CrC matched skipped controller read on page:5
+02/11/26 9.12.40 :Debug: isBlank Time: 1 ms.
+02/11/26 9.12.40 :Debug: Read All Data
+I 261102 091240.645 [pluginFetchThread] ConnectionAndMeta - Downloaded 84%
+02/11/26 9.12.40 :Debug: Reset Ex: !( triggerPageRefreshFlag ) = true
+02/11/26 9.12.40 :Debug: EventTrigger TriggeredPage 1 Refresh:  triggerPageRefreshFlag  Reset. expression: !( triggerPageRefreshFlag )
+02/11/26 9.12.40 :Debug: Reset Ex: !( ltftPageRefreshFlag ) = true
+02/11/26 9.12.40 :Debug: EventTrigger TriggeredPage 3 Refresh:  ltftPageRefreshFlag  Reset. expression: !( ltftPageRefreshFlag )
+02/11/26 9.12.40 :Debug: Reset Ex: !( triggerPageRefreshFlag ) = true
+02/11/26 9.12.40 :Debug: EventTrigger TriggeredPage 4 Refresh:  triggerPageRefreshFlag  Reset. expression: !( triggerPageRefreshFlag )
+02/11/26 9.12.40 :Debug: Reset Ex: !( triggerPageRefreshFlag ) = true
+02/11/26 9.12.40 :Debug: EventTrigger TriggeredPage 1 Refresh:  triggerPageRefreshFlag  Reset. expression: !( triggerPageRefreshFlag )
+02/11/26 9.12.40 :Debug: DiffTime: 147 ms.
+I 261102 091240.938 [pluginFetchThread] ConnectionAndMeta - Downloaded 90%
+I 261102 091241.331 [pluginFetchThread] ConnectionAndMeta - Downloaded 96%
+I 261102 091241.552 [pluginFetchThread] TsPluginBodyFetcher - Downloaded!
+Exception in thread "pluginFetchThread" java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: com/opensr5/ini/IniFileModel
+	at com.rusefi.ts_plugin.headless.TsHeadlessPluginImpl.run(TsHeadlessPluginImpl.java:27)
+	at com.rusefi.ts_plugin.headless.TsHeadlessPlugin.start(TsHeadlessPlugin.java:44)
+	at com.rusefi.ts_plugin.TsPluginLauncher.lambda$new$0(TsPluginLauncher.java:37)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoClassDefFoundError: com/opensr5/ini/IniFileModel
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.opensr5.ini.IniFileModel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 4 more
+Exception in thread "wizard-thread" java.lang.NoClassDefFoundError: com/rusefi/binaryprotocol/BinaryProtocol
+	at com.rusefi.ts_plugin.wizard.BackgroundWizard.lambda$start$0(BackgroundWizard.java:73)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: com.rusefi.binaryprotocol.BinaryProtocol
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+02/11/26 9.12.50 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 9.12.54 :Info: write to reg file
+02/11/26 9.12.54 :Info: wrote to reg file
+02/11/26 9.13.20 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+[Duplicate entry] received 3 times: Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 9.24.20 :Info: Initiating read page 1 : 6008:128
+02/11/26 9.24.20 :Debug: CRC matches for page 1:x9F x05 x94 xF9                                                       ....
+02/11/26 9.24.20 :Info: CrC matched skipped controller read on page:0
+02/11/26 9.24.28 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.24.29 :Debug: Flush lasted: 75ms.
+02/11/26 9.24.29 :Debug: Burn Page anonymous: 1
+02/11/26 9.24.29 :Info: Queueing burn to page:1
+02/11/26 9.24.29 :Debug: Burn time:2ms.
+02/11/26 9.24.29 :Debug: burned page 1
+02/11/26 9.24.29 :Debug: No Remaining Queue Write instructions
+02/11/26 9.24.29 :Debug: CRC matches for page 1:xC1 x87 x5C x1B                                                       ..\.
+02/11/26 9.24.29 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.24.29 :Debug: Flush lasted: 71ms.
+02/11/26 9.24.29 :Debug: Burn Page anonymous: -1
+02/11/26 9.24.29 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 9.24.29 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 9.24.30 :Info: Time to save msq: 191.30829
+02/11/26 9.33.04 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 9.33.04 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 9.33.04 :Info: Connection Check failed, forcing offline.
+02/11/26 9.33.05 :Debug: No Remaining Queue Write instructions
+02/11/26 9.33.05 :Debug: Went offline
+02/11/26 9.33.05 :Debug: No Remaining Queue Write instructions
+02/11/26 9.33.05 :Info: Went offline 2
+02/11/26 9.33.06 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+02/11/26 9.40.02 :Warning: No Data Log field defined for X axis of table: ignitionIatCorrTableTbl
+02/11/26 9.40.02 :Info: Initiating read page 1 : 6740:144
+02/11/26 9.40.03 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.40.04 :Debug: Flush lasted: 71ms.
+02/11/26 9.40.04 :Debug: Skip Burn, last write page: -2
+02/11/26 9.40.07 :Info: Initiating read page 1 : 76:2394
+02/11/26 9.40.23 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.40.23 :Debug: Flush lasted: 75ms.
+02/11/26 9.40.23 :Debug: Skip Burn, last write page: -2
+02/11/26 9.40.23 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.40.23 :Debug: Flush lasted: 75ms.
+02/11/26 9.40.23 :Debug: Skip Burn, last write page: -2
+02/11/26 9.40.28 :Info: Initiating read page 1 : 6008:128
+02/11/26 9.40.29 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.40.29 :Debug: Flush lasted: 75ms.
+02/11/26 9.40.29 :Debug: Skip Burn, last write page: -2
+02/11/26 9.40.34 :Info: Initiating read page 1 : 76:2394
+02/11/26 9.40.48 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.40.48 :Debug: Flush lasted: 70ms.
+02/11/26 9.40.48 :Debug: Skip Burn, last write page: -2
+02/11/26 9.41.11 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.41.11 :Debug: Flush lasted: 74ms.
+02/11/26 9.41.11 :Debug: Skip Burn, last write page: -2
+02/11/26 9.41.26 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.41.26 :Debug: Flush lasted: 75ms.
+02/11/26 9.41.26 :Debug: Skip Burn, last write page: -2
+02/11/26 9.58.39 :Info: Initiating read page 1 : 6008:128
+02/11/26 9.59.00 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.59.00 :Debug: Flush lasted: 73ms.
+02/11/26 9.59.00 :Debug: Skip Burn, last write page: -2
+02/11/26 9.59.04 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 9.59.04 :Debug: Flush lasted: 71ms.
+02/11/26 9.59.04 :Debug: Skip Burn, last write page: -2
+02/11/26 9.59.06 :Info: Time to save msq: 65.45438
+02/11/26 9.59.06 :Info: Time to save msq: 20.695457
+02/11/26 9.59.06 :Info: stage-2-rusefi Tune Saved!
+02/11/26 9.59.06 :Debug: Fill Constants: 41
+02/11/26 9.59.06 :Info: Skip Restore Point for 'stage-2-rusefi' because nothing changed since: stage-2-rusefi_2026-10-18_19.51.00.msq
+02/11/26 10.06.43 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 10.06.43 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 10.06.43 :Debug: CRC matches for page 1:x9F x05 x94 xF9                                                       ....
+02/11/26 10.06.43 :Info: CrC matched skipped controller read on page:1
+02/11/26 10.06.43 :Debug: CRC matches for page 2:x0D x96 x85 x58                                                       ...X
+02/11/26 10.06.43 :Info: CrC matched skipped controller read on page:2
+02/11/26 10.06.43 :Debug: CRC matches for page 3:xF1 xE8 xBA x9E                                                       ....
+02/11/26 10.06.43 :Info: CrC matched skipped controller read on page:3
+02/11/26 10.06.43 :Debug: CRC matches for page 4:xEE x16 xB6 x0D                                                       ....
+02/11/26 10.06.43 :Info: CrC matched skipped controller read on page:4
+02/11/26 10.06.43 :Debug: CRC matches for page 5:x4A x4B xE8 x64                                                       JK.d
+02/11/26 10.06.43 :Info: CrC matched skipped controller read on page:5
+02/11/26 10.06.43 :Debug: Read All Data
+02/11/26 10.06.43 :Debug: isBlank Time: 0 ms.
+02/11/26 10.06.43 :Debug: DiffTime: 37 ms.
+02/11/26 10.06.47 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 10.06.53 :Info: Initiating read page 1 : 6008:128
+02/11/26 10.06.53 :Debug: CRC matches for page 1:x9F x05 x94 xF9                                                       ....
+02/11/26 10.06.53 :Info: CrC matched skipped controller read on page:0
+02/11/26 10.06.55 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 10.06.55 :Debug: Flush lasted: 74ms.
+02/11/26 10.06.55 :Debug: Burn Page anonymous: -1
+02/11/26 10.06.55 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 10.06.55 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 10.06.57 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 10.06.57 :Debug: Flush lasted: 75ms.
+02/11/26 10.06.57 :Debug: Burn Page anonymous: -1
+02/11/26 10.06.57 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 10.06.57 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 10.06.58 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 10.06.58 :Debug: Flush lasted: 71ms.
+02/11/26 10.06.58 :Debug: Burn Page anonymous: -1
+02/11/26 10.06.58 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 10.06.58 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 10.06.59 :Info: Time to save msq: 26.394417
+02/11/26 10.06.59 :Info: Time to save msq: 27.012833
+02/11/26 10.06.59 :Info: stage-2-rusefi Tune Saved!
+02/11/26 10.06.59 :Debug: Fill Constants: 33
+02/11/26 10.07.00 :Info: Skip Restore Point for 'stage-2-rusefi' because nothing changed since: stage-2-rusefi_2026-10-18_19.51.00.msq
+02/11/26 10.07.06 :Info: Initiating read page 1 : 6008:128
+02/11/26 10.07.06 :Debug: CRC matches for page 1:x9F x05 x94 xF9                                                       ....
+02/11/26 10.07.06 :Info: CrC matched skipped controller read on page:0
+02/11/26 10.07.11 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 10.07.11 :Debug: Flush lasted: 75ms.
+02/11/26 10.07.11 :Debug: Burn Page anonymous: 1
+02/11/26 10.07.11 :Info: Queueing burn to page:1
+02/11/26 10.07.11 :Debug: Burn time:2ms.
+02/11/26 10.07.11 :Debug: burned page 1
+02/11/26 10.07.11 :Debug: No Remaining Queue Write instructions
+02/11/26 10.07.11 :Debug: CRC matches for page 1:x91 xF8 x94 xAE                                                       ....
+02/11/26 10.07.12 :Info: Time to save msq: 53.584377
+02/11/26 10.07.15 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 10.07.15 :Debug: Flush lasted: 75ms.
+02/11/26 10.07.15 :Debug: Burn Page anonymous: 1
+02/11/26 10.07.15 :Info: Queueing burn to page:1
+02/11/26 10.07.15 :Debug: Burn time:1ms.
+02/11/26 10.07.15 :Debug: burned page 1
+02/11/26 10.07.15 :Debug: No Remaining Queue Write instructions
+02/11/26 10.07.15 :Debug: CRC matches for page 1:x9F x05 x94 xF9                                                       ....
+02/11/26 10.07.16 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 10.07.16 :Debug: Flush lasted: 75ms.
+02/11/26 10.07.16 :Debug: Burn Page anonymous: -1
+02/11/26 10.07.16 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 10.07.16 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 10.07.16 :Info: Time to save msq: 16.494793
+02/11/26 10.07.20 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+[Duplicate entry] received 2 times: Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 10.07.28 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 10.07.28 :Info: Connection Check failed, forcing offline.
+02/11/26 10.07.29 :Debug: No Remaining Queue Write instructions
+02/11/26 10.07.29 :Debug: Went offline
+02/11/26 10.07.29 :Debug: No Remaining Queue Write instructions
+02/11/26 10.07.29 :Info: Went offline 2
+02/11/26 10.07.30 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+02/11/26 14.00.58 :Info: Time to save msq: 29.832832
+02/11/26 14.00.58 :Info: closeApp Called
+02/11/26 14.00.58 :Debug: TuneLog Editor set text
+02/11/26 14.00.58 :Debug: Fill Constants: 34
+02/11/26 14.00.58 :Info: Skip Restore Point for 'stage-2-rusefi' because nothing changed since: stage-2-rusefi_2026-10-18_19.51.00.msq
+02/11/26 14.00.58 :Info: Time to save msq: 16.873917
+02/11/26 14.00.58 :Debug: goOffline Starting, Time:0
+02/11/26 14.00.58 :Info: Deactivated Turbo Baud, goOffline
+02/11/26 14.00.58 :Debug: goOffline about to stopProcessing, Time:1
+02/11/26 14.00.58 :Debug: goOffline closed port, Time:1
+02/11/26 14.00.58 :Info: stage-2-rusefi ComThread stopped COMM Thread60116.644600299616
+02/11/26 14.00.58 :Debug: goOffline comm thread stopped, Time:263
+02/11/26 14.00.58 :Debug: No Remaining Queue Write instructions
+02/11/26 14.01.00 :Debug: removing Configuration: stage-2-rusefi
+I 261102 140100.310 [AWT-EventQueue-0] TsPluginLauncher - displayPlugin 
+I 261102 140100.310 [AWT-EventQueue-0] BackgroundWizard - ECU signature invalid for this plugin: 
+02/11/26 14.01.00 :Debug: ############################################# Save Project Backup ##########################################
+02/11/26 14.01.00 :Info: Finalizing Sensors
+Saved user properties successfully
+Starting on hdrozdowski-dev
+TunerStudio 3.3.01 started on Mon Nov 02 17:42:02 CET 2026
+JRE 1.8.0_91, Mac OS X 26.5.1, x86_64
+java.library.path=/Users/hubertdrozdowsky/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+TunerStudioMS.jar
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:Mac OS X, ClassName:'com.apple.laf.AquaLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+Warning: the font "Times" is not available, so "Lucida Bright" has been substituted, but may have unexpected appearance or behavor. Re-enable the "Times" font to remove this warning.
+ScrollBar.width
+02/11/26 17.42.03 :Debug: no update:defaultFont
+02/11/26 17.42.03 :Info: Initializing File Dialogs.
+02/11/26 17.42.03 :Info: Updating ai & t
+02/11/26 17.42.03 :Info: Loading Language Content.
+02/11/26 17.42.03 :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+02/11/26 17.42.03 :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+02/11/26 17.42.03 :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+02/11/26 17.42.03 :Info: Initializing Plugin Services.
+02/11/26 17.42.03 :Info: Loading Plugins.
+02/11/26 17.42.03 :Debug: Loading Plugin from rusefi_ts_plugin_launcher.jar
+I 261102 174204.000 [AWT-EventQueue-0] TsPluginLauncher - init com.rusefi.ts_plugin.TsPluginLauncher@78e0b399 2025.alpha.7 20260725
+02/11/26 17.42.04 :Info: Initializing Help.
+02/11/26 17.42.04 :Info: Initializing Edition Features.
+I 261102 174204.018 [pluginFetchThread] PropertiesHolder - auto_update_root_url=https://rusefi.com/build_server
+I 261102 174204.018 [pluginFetchThread] PropertiesHolder - auto_update_root_url getProperty=https://rusefi.com/build_server
+02/11/26 17.42.04 :Info: Initializing App Events.
+I 261102 174204.026 [pluginFetchThread] ConnectionAndMeta - Connecting to https://rusefi.com/build_server/autoupdate/rusefi_plugin_body.jar?u=814da1bb-8c97-4523-863e-2a579bafd964
+02/11/26 17.42.04 :Debug: App Name:TunerStudio, appEdition:MS
+02/11/26 17.42.04 :Info: Initializing User Interface
+I 261102 174204.100 [pluginFetchThread] ConnectionAndMeta - Request Headers: {Cache-Control=[no-cache, no-store, must-revalidate, max-age=0], User-Agent=[RE-Internal-Sync], Expires=[0], Pragma=[no-cache]}
+I 261102 174204.331 [AWT-EventQueue-0] TsPluginLauncher - displayPlugin 
+I 261102 174204.341 [AWT-EventQueue-0] Updater - Using /Users/hubertdrozdowsky/.rusEFI/rusefi_plugin_body.jar
+I 261102 174204.349 [AWT-EventQueue-0] TsHeadlessPlugin - Created TsHeadlessPluginImpl instance
+I 261102 174204.351 [AWT-EventQueue-0] BackgroundWizard - ECU signature invalid for this plugin: 
+02/11/26 17.42.04 :Info: Checking for updates
+I 261102 174205.174 [pluginFetchThread] ConnectionAndMeta - Response code 200
+I 261102 174205.175 [pluginFetchThread] TsPluginBodyFetcher - Server has 9438762 from Mon Nov 02 01:56:30 CET 2026
+We have size=9438762 modified=Mon Nov 02 01:56:30 CET 2026 /Users/hubertdrozdowsky/.rusEFI/rusefi_plugin_body.jar
+I 261102 174205.176 [pluginFetchThread] TsPluginBodyFetcher - We already have latest update Mon Nov 02 01:56:30 CET 2026
+I 261102 174205.191 [wizard-thread] BinaryProtocol - BINARY_IO_TIMEOUT=10000
+I 261102 174205.192 [wizard-thread] BinaryProtocol - CONNECTION_RESTART_DELAY=10000
+Exception in thread "wizard-thread" java.lang.BootstrapMethodError: java.lang.NoSuchMethodError: com.rusefi.core.SignatureHelper.downloadIfNotAvailable(Lcom/rusefi/core/Pair;Z)Ljava/lang/String;
+	at com.rusefi.binaryprotocol.RealIniFileProvider.<init>(RealIniFileProvider.java:43)
+	at com.rusefi.binaryprotocol.BinaryProtocol.<clinit>(BinaryProtocol.java:99)
+	at com.rusefi.ts_plugin.wizard.BackgroundWizard.lambda$start$0(BackgroundWizard.java:73)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: com.rusefi.core.SignatureHelper.downloadIfNotAvailable(Lcom/rusefi/core/Pair;Z)Ljava/lang/String;
+	at java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+	at java.lang.invoke.MemberName$Factory.resolve(MemberName.java:977)
+	at java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1002)
+	at java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:1390)
+	at java.lang.invoke.MethodHandles$Lookup.linkMethodHandleConstant(MethodHandles.java:1746)
+	at java.lang.invoke.MethodHandleNatives.linkMethodHandleConstant(MethodHandleNatives.java:477)
+	... 4 more
+02/11/26 17.42.06 :Info: Loading Font list.
+Warning: the font "Times" is not available, so "Lucida Bright" has been substituted, but may have unexpected appearance or behavor. Re-enable the "Times" font to remove this warning.
+I 261102 174206.139 [PlainSerialPortScanner inspectPort tty.usbmodem102] LinkManager - LinkManager: Starting tty.usbmodem102
+I 261102 174206.139 [PlainSerialPortScanner inspectPort cu.CSR8675-LDAC] LinkManager - LinkManager: Starting cu.CSR8675-LDAC
+I 261102 174206.139 [PlainSerialPortScanner inspectPort tty.CSR8675-LDAC] LinkManager - LinkManager: Starting tty.CSR8675-LDAC
+I 261102 174206.139 [PlainSerialPortScanner inspectPort cu.Bluetooth-Incoming-Port] LinkManager - LinkManager: Starting cu.Bluetooth-Incoming-Port
+I 261102 174206.139 [PlainSerialPortScanner inspectPort cu.debug-console] LinkManager - LinkManager: Starting cu.debug-console
+I 261102 174206.139 [PlainSerialPortScanner inspectPort cu.usbmodem102] LinkManager - LinkManager: Starting cu.usbmodem102
+I 261102 174206.139 [PlainSerialPortScanner inspectPort tty.Bluetooth-Incoming-Port] LinkManager - LinkManager: Starting tty.Bluetooth-Incoming-Port
+I 261102 174206.139 [PlainSerialPortScanner inspectPort tty.debug-console] LinkManager - LinkManager: Starting tty.debug-console
+02/11/26 17.42.06 :Debug: Time to retreive font name list: 72 ms.
+I 261102 174206.147 [PlainSerialPortScanner inspectPort tty.Bluetooth-Incoming-Port] StreamConnector - StreamConnector: connecting
+I 261102 174206.148 [PlainSerialPortScanner inspectPort cu.Bluetooth-Incoming-Port] StreamConnector - StreamConnector: connecting
+I 261102 174206.147 [PlainSerialPortScanner inspectPort cu.CSR8675-LDAC] StreamConnector - StreamConnector: connecting
+I 261102 174206.147 [PlainSerialPortScanner inspectPort tty.CSR8675-LDAC] StreamConnector - StreamConnector: connecting
+I 261102 174206.147 [PlainSerialPortScanner inspectPort tty.usbmodem102] StreamConnector - StreamConnector: connecting
+02/11/26 17.42.06 :Info: 
+I 261102 174206.148 [PlainSerialPortScanner inspectPort tty.debug-console] StreamConnector - StreamConnector: connecting
+I 261102 174206.148 [PlainSerialPortScanner inspectPort cu.usbmodem102] StreamConnector - StreamConnector: connecting
+I 261102 174206.148 [PlainSerialPortScanner inspectPort cu.debug-console] StreamConnector - StreamConnector: connecting
+02/11/26 17.42.06 :Info: Initializing UI Components.
+I 261102 174206.176 [PlainSerialPortScanner inspectPort tty.debug-console] StreamConnector - scheduleOpening
+I 261102 174206.177 [PlainSerialPortScanner inspectPort tty.Bluetooth-Incoming-Port] StreamConnector - scheduleOpening
+I 261102 174206.177 [PlainSerialPortScanner inspectPort tty.usbmodem102] StreamConnector - scheduleOpening
+I 261102 174206.176 [PlainSerialPortScanner inspectPort cu.usbmodem102] StreamConnector - scheduleOpening
+I 261102 174206.176 [PlainSerialPortScanner inspectPort cu.debug-console] StreamConnector - scheduleOpening
+I 261102 174206.178 [PlainSerialPortScanner inspectPort cu.Bluetooth-Incoming-Port] StreamConnector - scheduleOpening
+I 261102 174206.178 [PlainSerialPortScanner inspectPort cu.CSR8675-LDAC] StreamConnector - scheduleOpening
+I 261102 174206.178 [PlainSerialPortScanner inspectPort tty.CSR8675-LDAC] StreamConnector - scheduleOpening
+I 261102 174206.185 [ECU Communication Executor1] StreamConnector - scheduleOpening>openPort
+I 261102 174206.189 [ECU Communication Executor1] StreamConnector - scheduleOpening>openPort
+I 261102 174206.188 [ECU Communication Executor1] StreamConnector - scheduleOpening>openPort
+I 261102 174206.186 [ECU Communication Executor1] StreamConnector - scheduleOpening>openPort
+I 261102 174206.186 [ECU Communication Executor1] StreamConnector - scheduleOpening>openPort
+I 261102 174206.185 [ECU Communication Executor1] StreamConnector - scheduleOpening>openPort
+I 261102 174206.185 [ECU Communication Executor1] StreamConnector - scheduleOpening>openPort
+I 261102 174206.185 [ECU Communication Executor1] StreamConnector - scheduleOpening>openPort
+02/11/26 17.42.06 :Info: Ready
+02/11/26 17.42.07 :Info: Opening Project ...
+02/11/26 17.42.07 :Debug: Opening project: /Users/hubertdrozdowsky/Builds/Cache/WBAAB11090AA01791/electrical/tunes/stage-2-rusefi
+02/11/26 17.42.07 :Debug: EventTrigger Data log Reset. expression: 
+02/11/26 17.42.07 :Info: Setting Inactive: Data log, expression: 
+02/11/26 17.42.07 :Debug: EventTrigger Stop Data log Reset. expression: 
+02/11/26 17.42.07 :Info: Setting Inactive: Stop Data log, expression: 
+02/11/26 17.42.07 :Debug: Reading translation file as plain text
+02/11/26 17.42.07 :Info: Supported iniSpecVersion=3.79
+02/11/26 17.42.07 :Debug: Filtered ConfigurationOptionGroup in 45ms.
+02/11/26 17.42.07 :Info: Supported iniSpecVersion=3.79
+02/11/26 17.42.07 :Info: Read file canPcVariables.ini: 1.568875ms
+02/11/26 17.42.07 :Info: Filtered ini: 0.141334ms
+02/11/26 17.42.07 :Info: No iniVersion defined
+02/11/26 17.42.07 :Info: Loading Trigger Wheels
+02/11/26 17.42.07 :Info: Loaded All known ini sections
+02/11/26 17.42.07 :Info: Parsed and validated ini "canPcVariables.ini" in : 11ms.
+02/11/26 17.42.07 :Info: Read file mainController.ini: 4.020833ms
+02/11/26 17.42.07 :Info: Filtered ini: 6.680459ms
+02/11/26 17.42.07 :Info: No iniVersion defined
+02/11/26 17.42.07 :Debug: ini signature: rusEFI master.2026.09.19.KRC_ECU_V3.3033935405
+02/11/26 17.42.07 :Info: Set Write Blocks on = true
+02/11/26 17.42.07 :Warning: Table: fuelTrimTbl9, Assigned y Bin not found: fuelTrims9_table, Problem at:
+[mainController.ini]:[Line:5341]: 		zBins = fuelTrims9_table
+
+02/11/26 17.42.07 :Warning: Table: fuelTrimTbl10, Assigned y Bin not found: fuelTrims10_table, Problem at:
+[mainController.ini]:[Line:5347]: 		zBins = fuelTrims10_table
+
+02/11/26 17.42.07 :Warning: Table: fuelTrimTbl11, Assigned y Bin not found: fuelTrims11_table, Problem at:
+[mainController.ini]:[Line:5353]: 		zBins = fuelTrims11_table
+
+02/11/26 17.42.07 :Warning: Table: fuelTrimTbl12, Assigned y Bin not found: fuelTrims12_table, Problem at:
+[mainController.ini]:[Line:5359]: 		zBins = fuelTrims12_table
+
+02/11/26 17.42.07 :Warning: Table: ignTrimTbl9, Assigned y Bin not found: ignTrims9_table, Problem at:
+[mainController.ini]:[Line:5405]: 		zBins =ignTrims9_table
+
+02/11/26 17.42.07 :Warning: Table: ignTrimTbl10, Assigned y Bin not found: ignTrims10_table, Problem at:
+[mainController.ini]:[Line:5410]: 		zBins = ignTrims10_table
+
+02/11/26 17.42.07 :Warning: Table: ignTrimTbl11, Assigned y Bin not found: ignTrims11_table, Problem at:
+[mainController.ini]:[Line:5415]: 		zBins = ignTrims11_table
+
+02/11/26 17.42.07 :Warning: Table: ignTrimTbl12, Assigned y Bin not found: ignTrims12_table, Problem at:
+[mainController.ini]:[Line:5420]: 		zBins = ignTrims12_table
+
+02/11/26 17.42.07 :Warning: Table: knockGainTbl9, Assigned y Bin not found: knockGains9_table, Problem at:
+[mainController.ini]:[Line:5499]: 		zBins = knockGains9_table
+
+02/11/26 17.42.07 :Warning: Table: knockGainTbl10, Assigned y Bin not found: knockGains10_table, Problem at:
+[mainController.ini]:[Line:5504]: 		zBins = knockGains10_table
+
+02/11/26 17.42.07 :Warning: Table: knockGainTbl11, Assigned y Bin not found: knockGains11_table, Problem at:
+[mainController.ini]:[Line:5509]: 		zBins = knockGains11_table
+
+02/11/26 17.42.07 :Warning: Table: knockGainTbl12, Assigned y Bin not found: knockGains12_table, Problem at:
+[mainController.ini]:[Line:5514]: 		zBins = knockGains12_table
+
+02/11/26 17.42.07 :Info: Loading Trigger Wheels
+02/11/26 17.42.07 :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage29'., Problem at:
+[mainController.ini]:[Line:8969]: 		field = "Injection Stage 2 Output 9 ",					injectionPinsStage29, {isInjectionEnabled && enableStagedInjection && cylindersCount > 8}
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage210'., Problem at:
+[mainController.ini]:[Line:8970]: 		field = "Injection Stage 2 Output 10 ",					injectionPinsStage210, {isInjectionEnabled && enableStagedInjection && cylindersCount > 9}
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage211'., Problem at:
+[mainController.ini]:[Line:8971]: 		field = "Injection Stage 2 Output 11 ",					injectionPinsStage211, {isInjectionEnabled && enableStagedInjection && cylindersCount > 10}
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPinsStage212'., Problem at:
+[mainController.ini]:[Line:8972]: 		field = "Injection Stage 2 Output 12 ",					injectionPinsStage212, {isInjectionEnabled && enableStagedInjection && cylindersCount > 11}
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins9'., Problem at:
+[mainController.ini]:[Line:9436]: 		field = "Ignition Output 9",						ignitionPins9
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins10'., Problem at:
+[mainController.ini]:[Line:9437]: 		field = "Ignition Output 10",						ignitionPins10
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins11'., Problem at:
+[mainController.ini]:[Line:9438]: 		field = "Ignition Output 11",						ignitionPins11
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'ignitionPins12'., Problem at:
+[mainController.ini]:[Line:9439]: 		field = "Ignition Output 12",						ignitionPins12
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins9'., Problem at:
+[mainController.ini]:[Line:9448]: 		field = "Injection Output 9 ",					injectionPins9
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins10'., Problem at:
+[mainController.ini]:[Line:9449]: 		field = "Injection Output 10 ",					injectionPins10
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins11'., Problem at:
+[mainController.ini]:[Line:9450]: 		field = "Injection Output 11 ",					injectionPins11
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'injectionPins12'., Problem at:
+[mainController.ini]:[Line:9451]: 		field = "Injection Output 12 ",					injectionPins12
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'canSniffer3_read'., Problem at:
+[mainController.ini]:[Line:10978]: 		field = "Listen bus (excl. ECU messages)",		canSniffer3_read
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'canSniffer3_listenOurs'., Problem at:
+[mainController.ini]:[Line:10979]: 		field = "Include frames we send",					canSniffer3_listenOurs
+
+02/11/26 17.42.07 :Warning: [UserDefined] field assigned to invalid Constant 'canSniffer3_handleInjected'., Problem at:
+[mainController.ini]:[Line:10980]: 		field = "ECU should handle what sniffer say",	canSniffer3_handleInjected, { 0 }
+
+02/11/26 17.42.07 :Info: Loaded All known ini sections
+02/11/26 17.42.07 :Info: Parsed and validated ini "mainController.ini" in : 372ms.
+02/11/26 17.42.07 :Info: Not Loading default Tools because they were already loaded from the project ini(s)
+02/11/26 17.42.07 :Info: Time to load primary config: 470.0303ms. used cached config: false
+02/11/26 17.42.07 :Debug: set baud to 115200
+02/11/26 17.42.07 :Info: Setting connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.42.07 :Debug: Adding Configuration: stage-2-rusefi
+02/11/26 17.42.07 :Info: Setting Active: TriggeredPage 1 Refresh:  triggerPageRefreshFlag , expression:  triggerPageRefreshFlag 
+02/11/26 17.42.07 :Debug: Activating Event Trigger: TriggeredPage 1 Refresh:  triggerPageRefreshFlag 
+02/11/26 17.42.07 :Info: Setting Active: TriggeredPage 3 Refresh:  ltftPageRefreshFlag , expression:  ltftPageRefreshFlag 
+02/11/26 17.42.07 :Debug: Activating Event Trigger: TriggeredPage 3 Refresh:  ltftPageRefreshFlag 
+02/11/26 17.42.07 :Info: Setting Active: TriggeredPage 4 Refresh:  triggerPageRefreshFlag , expression:  triggerPageRefreshFlag 
+02/11/26 17.42.07 :Debug: Activating Event Trigger: TriggeredPage 4 Refresh:  triggerPageRefreshFlag 
+02/11/26 17.42.07 :Info: IncUpdate: No updates available.
+02/11/26 17.42.07 :Info: IniUpdate: No updates available.
+02/11/26 17.42.07 :Debug: Fill Constants: 48
+02/11/26 17.42.07 :Debug: EventTrigger TriggeredPage 1 Refresh:  triggerPageRefreshFlag  Triggered. expression:  triggerPageRefreshFlag 
+02/11/26 17.42.07 :Debug: TriggeredPage 1 Refresh:  triggerPageRefreshFlag : Trigger Expression:  triggerPageRefreshFlag  = NaN
+02/11/26 17.42.07 :Debug: EventTrigger TriggeredPage 3 Refresh:  ltftPageRefreshFlag  Triggered. expression:  ltftPageRefreshFlag 
+02/11/26 17.42.07 :Debug: TriggeredPage 3 Refresh:  ltftPageRefreshFlag : Trigger Expression:  ltftPageRefreshFlag  = NaN
+02/11/26 17.42.07 :Debug: EventTrigger TriggeredPage 4 Refresh:  triggerPageRefreshFlag  Triggered. expression:  triggerPageRefreshFlag 
+02/11/26 17.42.07 :Debug: TriggeredPage 4 Refresh:  triggerPageRefreshFlag : Trigger Expression:  triggerPageRefreshFlag  = NaN
+02/11/26 17.42.08 :Info: Tune opened, 9285 bytes updated. File:/Users/hubertdrozdowsky/Builds/Cache/WBAAB11090AA01791/electrical/tunes/stage-2-rusefi/CurrentTune.msq
+[Duplicate entry] received 2 times: Info: Tune opened, 9285 bytes updated. File:/Users/hubertdrozdowsky/Builds/Cache/WBAAB11090AA01791/electrical/tunes/stage-2-rusefi/CurrentTune.msq
+02/11/26 17.42.08 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.42.08 :Debug: Flush lasted: 76ms.
+02/11/26 17.42.08 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.42.08 :Debug: Flush lasted: 75ms.
+02/11/26 17.42.08 :Debug: Skip Burn, last write page: -2
+02/11/26 17.42.08 :Info: !!! Loaded config in 1008
+Saved user properties successfully
+I 261102 174208.318 [ProjectOpenThread] TsPluginLauncher - displayPlugin rusEFI master.2026.09.19.KRC_ECU_V3.3033935405
+02/11/26 17.42.08 :Info: !!! Activated Project 1415
+02/11/26 17.42.08 :Info: Opening Gauge Cluster..
+02/11/26 17.42.08 :Info: Time to load uncached dash: 118.767624ms, file: dashboard.dash
+02/11/26 17.42.08 :Warning: Failed to subscribe DashComp to OutputChannel wbo0_hasFault
+Not found in current configuration.
+02/11/26 17.42.08 :Debug: High Speed Paint: false
+Saved user properties successfully
+02/11/26 17.42.09 :Info: Update Check Completed
+Saved user properties successfully
+02/11/26 17.42.09 :Info: 
+02/11/26 17.42.09 :Info: Com Thread created: COMM Thread78466.65475721197
+02/11/26 17.42.09 :Info: endModalBlock called, but Root Pane is not a ProgressPane.
+02/11/26 17.42.09 :Info: Comm Manager for stage-2-rusefi Started, thread ID: COMM Thread78466.65475721197
+02/11/26 17.42.09 :Debug: !!! Opened Dash 1915
+02/11/26 17.42.09 :Info: Connecting to controller on: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.42.09 :Info: stage-2-rusefi Ready
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+02/11/26 17.42.09 :Info: EventTrigger: stage-2-rusefi.TriggeredPage 1 Refresh:  triggerPageRefreshFlag  not active.
+02/11/26 17.42.09 :Info: EventTrigger: stage-2-rusefi.TriggeredPage 3 Refresh:  ltftPageRefreshFlag  not active.
+02/11/26 17.42.09 :Info: EventTrigger: stage-2-rusefi.TriggeredPage 4 Refresh:  triggerPageRefreshFlag  not active.
+02/11/26 17.42.09 :Debug: Tuning View Files loaded in 313.1506ms.
+02/11/26 17.42.11 :Info: Comm Read Thread Change! Old Thread:null, new Thread:COMM Thread78466.65475721197
+02/11/26 17.42.11 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 17.42.11 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 17.42.12 :Info: CRC Mismatch, will need to refresh page from controller 
+02/11/26 17.42.12 :Info:    CRC from controller page 1:x9F x05 x94 xF9                                                       ....
+02/11/26 17.42.12 :Info:    Local Data CRC for page 1: x13 xA9 xD9 xE8                                                       ....
+Saved user properties successfully
+02/11/26 17.42.12 :Debug: Read page time: 917ms.
+02/11/26 17.42.12 :Info: Checksum page 1 data read: x9F x05 x94 xF9                                                       ....
+02/11/26 17.42.12 :Debug: CRC matches for page 2:x0D x96 x85 x58                                                       ...X
+02/11/26 17.42.12 :Info: CrC matched skipped controller read on page:2
+02/11/26 17.42.13 :Debug: CRC matches for page 3:xF1 xE8 xBA x9E                                                       ....
+02/11/26 17.42.13 :Info: CrC matched skipped controller read on page:3
+02/11/26 17.42.13 :Debug: CRC matches for page 4:xEE x16 xB6 x0D                                                       ....
+02/11/26 17.42.13 :Info: CrC matched skipped controller read on page:4
+02/11/26 17.42.13 :Debug: CRC matches for page 5:x4A x4B xE8 x64                                                       JK.d
+02/11/26 17.42.13 :Info: CrC matched skipped controller read on page:5
+02/11/26 17.42.13 :Debug: Read All Data
+02/11/26 17.42.13 :Debug: isBlank Time: 0 ms.
+02/11/26 17.42.13 :Debug: Reset Ex: !( triggerPageRefreshFlag ) = true
+02/11/26 17.42.13 :Debug: EventTrigger TriggeredPage 1 Refresh:  triggerPageRefreshFlag  Reset. expression: !( triggerPageRefreshFlag )
+02/11/26 17.42.13 :Debug: Reset Ex: !( triggerPageRefreshFlag ) = true
+02/11/26 17.42.13 :Debug: EventTrigger TriggeredPage 1 Refresh:  triggerPageRefreshFlag  Reset. expression: !( triggerPageRefreshFlag )
+02/11/26 17.42.13 :Debug: Reset Ex: !( ltftPageRefreshFlag ) = true
+02/11/26 17.42.13 :Debug: EventTrigger TriggeredPage 3 Refresh:  ltftPageRefreshFlag  Reset. expression: !( ltftPageRefreshFlag )
+02/11/26 17.42.13 :Debug: Reset Ex: !( triggerPageRefreshFlag ) = true
+02/11/26 17.42.13 :Debug: EventTrigger TriggeredPage 4 Refresh:  triggerPageRefreshFlag  Reset. expression: !( triggerPageRefreshFlag )
+02/11/26 17.42.13 :Debug: Reset Ex: !( ltftPageRefreshFlag ) = true
+02/11/26 17.42.13 :Debug: EventTrigger TriggeredPage 3 Refresh:  ltftPageRefreshFlag  Reset. expression: !( ltftPageRefreshFlag )
+02/11/26 17.42.13 :Debug: DiffTime: 92 ms.
+02/11/26 17.42.28 :Info: Initiating read page 1 : 3416:29
+02/11/26 17.42.28 :Debug: CRC matches for page 1:x9F x05 x94 xF9                                                       ....
+02/11/26 17.42.28 :Info: CrC matched skipped controller read on page:0
+02/11/26 17.42.34 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.42.57 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.42.57 :Debug: Flush lasted: 75ms.
+02/11/26 17.42.57 :Debug: Burn Page anonymous: 1
+02/11/26 17.42.57 :Info: Queueing burn to page:1
+02/11/26 17.42.57 :Debug: Burn time:3ms.
+02/11/26 17.42.57 :Debug: burned page 1
+02/11/26 17.42.57 :Debug: No Remaining Queue Write instructions
+02/11/26 17.42.57 :Debug: CRC matches for page 1:x6F xF1 xCA x93                                                       o...
+02/11/26 17.42.57 :Info: Getting ECU name for signature: 'rusEFI master.2026.09.19.KRC_ECU_V3.3033935405'
+02/11/26 17.42.57 :Info: Looks like rusEFI
+02/11/26 17.42.58 :Info: Time to save msq: 221.88008
+02/11/26 17.43.05 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.43.24 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.43.24 :Debug: Flush lasted: 75ms.
+02/11/26 17.43.24 :Debug: Burn Page anonymous: 1
+02/11/26 17.43.24 :Info: Queueing burn to page:1
+02/11/26 17.43.24 :Debug: Burn time:1ms.
+02/11/26 17.43.24 :Debug: burned page 1
+02/11/26 17.43.24 :Debug: No Remaining Queue Write instructions
+02/11/26 17.43.24 :Debug: CRC matches for page 1:xC2 xDD x6A x6C                                                       ..jl
+02/11/26 17.43.26 :Info: Time to save msq: 38.685917
+02/11/26 17.43.34 :Info: dirtyData.size(): 0
+[Duplicate entry] received 3 times: Info: dirtyData.size(): 0
+02/11/26 17.43.35 :Debug: Flush lasted: 1451ms.
+02/11/26 17.43.35 :Debug: Burn Page anonymous: 1
+02/11/26 17.43.35 :Info: Queueing burn to page:1
+02/11/26 17.43.36 :Info: dirtyData.size(): 0
+02/11/26 17.43.36 :Debug: Flush lasted: 399ms.
+02/11/26 17.43.36 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.43.36 :Debug: Burn Page anonymous: -1
+02/11/26 17.43.36 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 17.43.36 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.43.36 :Debug: Flush lasted: 71ms.
+02/11/26 17.43.36 :Debug: Burn Page anonymous: -1
+02/11/26 17.43.36 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 17.43.37 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 17.43.37 :Debug: Burn time:3ms.
+02/11/26 17.43.37 :Debug: burned page 1
+02/11/26 17.43.37 :Debug: CRC matches for page 1:x9F x05 x94 xF9                                                       ....
+02/11/26 17.43.37 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 17.43.38 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.43.38 :Debug: Flush lasted: 75ms.
+02/11/26 17.43.38 :Debug: Burn Page anonymous: -1
+02/11/26 17.43.38 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 17.43.38 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 17.43.45 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.43.45 :Debug: Flush lasted: 75ms.
+02/11/26 17.43.45 :Debug: Burn Page anonymous: 1
+02/11/26 17.43.45 :Info: Queueing burn to page:1
+02/11/26 17.43.45 :Debug: Burn time:1ms.
+02/11/26 17.43.45 :Debug: burned page 1
+02/11/26 17.43.45 :Debug: No Remaining Queue Write instructions
+02/11/26 17.43.45 :Debug: CRC matches for page 1:xC2 xDD x6A x6C                                                       ..jl
+02/11/26 17.43.46 :Info: Time to save msq: 44.05575
+02/11/26 17.44.06 :Info: Initiating read page 1 : 76:2394
+02/11/26 17.44.06 :Debug: CRC matches for page 1:xC2 xDD x6A x6C                                                       ..jl
+02/11/26 17.44.06 :Info: CrC matched skipped controller read on page:0
+02/11/26 17.44.09 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.44.09 :Debug: Flush lasted: 71ms.
+02/11/26 17.44.09 :Debug: Burn Page anonymous: 1
+02/11/26 17.44.09 :Info: Queueing burn to page:1
+02/11/26 17.44.09 :Debug: Burn time:2ms.
+02/11/26 17.44.09 :Debug: burned page 1
+02/11/26 17.44.09 :Debug: No Remaining Queue Write instructions
+02/11/26 17.44.09 :Debug: CRC matches for page 1:xEC x84 x6B x13                                                       ..k.
+02/11/26 17.44.10 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.44.10 :Debug: Flush lasted: 72ms.
+02/11/26 17.44.10 :Debug: Burn Page anonymous: -1
+02/11/26 17.44.10 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 17.44.10 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 17.44.10 :Info: Time to save msq: 31.251877
+02/11/26 17.44.21 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.44.25 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.44.25 :Debug: Flush lasted: 71ms.
+02/11/26 17.44.25 :Debug: Burn Page anonymous: 1
+02/11/26 17.44.25 :Info: Queueing burn to page:1
+02/11/26 17.44.25 :Debug: Burn time:1ms.
+02/11/26 17.44.25 :Debug: burned page 1
+02/11/26 17.44.25 :Debug: No Remaining Queue Write instructions
+02/11/26 17.44.25 :Debug: CRC matches for page 1:x98 x5F xC3 xF8                                                       ._..
+02/11/26 17.44.27 :Info: Time to save msq: 32.734623
+02/11/26 17.44.31 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.44.31 :Debug: Flush lasted: 70ms.
+02/11/26 17.44.31 :Debug: Burn Page anonymous: 1
+02/11/26 17.44.31 :Info: Queueing burn to page:1
+02/11/26 17.44.31 :Debug: Burn time:1ms.
+02/11/26 17.44.31 :Debug: burned page 1
+02/11/26 17.44.31 :Debug: No Remaining Queue Write instructions
+02/11/26 17.44.31 :Debug: CRC matches for page 1:x92 xE8 xBB x33                                                       ...3
+02/11/26 17.44.33 :Info: Time to save msq: 39.643375
+02/11/26 17.45.07 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.45.13 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.45.13 :Debug: Flush lasted: 75ms.
+02/11/26 17.45.13 :Debug: Burn Page anonymous: 1
+02/11/26 17.45.13 :Info: Queueing burn to page:1
+02/11/26 17.45.13 :Debug: Burn time:2ms.
+02/11/26 17.45.13 :Debug: burned page 1
+02/11/26 17.45.13 :Debug: No Remaining Queue Write instructions
+02/11/26 17.45.13 :Debug: CRC matches for page 1:xB1 x5C x95 x86                                                       .\..
+02/11/26 17.45.14 :Info: Time to save msq: 16.6285
+02/11/26 17.45.21 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.45.21 :Debug: Flush lasted: 72ms.
+02/11/26 17.45.21 :Debug: Burn Page anonymous: -1
+02/11/26 17.45.21 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 17.45.21 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 17.45.28 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.45.28 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.45.28 :Info: Connection Check failed, forcing offline.
+02/11/26 17.45.30 :Debug: No Remaining Queue Write instructions
+02/11/26 17.45.30 :Debug: Went offline
+02/11/26 17.45.30 :Debug: No Remaining Queue Write instructions
+02/11/26 17.45.30 :Info: Went offline 2
+02/11/26 17.45.30 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+02/11/26 17.45.35 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 17.45.35 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 17.45.35 :Debug: CRC matches for page 1:xB1 x5C x95 x86                                                       .\..
+02/11/26 17.45.35 :Info: CrC matched skipped controller read on page:1
+02/11/26 17.45.35 :Debug: CRC matches for page 2:x0D x96 x85 x58                                                       ...X
+02/11/26 17.45.35 :Info: CrC matched skipped controller read on page:2
+02/11/26 17.45.35 :Debug: CRC matches for page 3:xF1 xE8 xBA x9E                                                       ....
+02/11/26 17.45.35 :Info: CrC matched skipped controller read on page:3
+02/11/26 17.45.35 :Debug: CRC matches for page 4:xEE x16 xB6 x0D                                                       ....
+02/11/26 17.45.35 :Info: CrC matched skipped controller read on page:4
+02/11/26 17.45.35 :Debug: CRC matches for page 5:x4A x4B xE8 x64                                                       JK.d
+02/11/26 17.45.35 :Info: CrC matched skipped controller read on page:5
+02/11/26 17.45.35 :Debug: Read All Data
+02/11/26 17.45.35 :Debug: isBlank Time: 0 ms.
+02/11/26 17.45.35 :Debug: DiffTime: 71 ms.
+02/11/26 17.45.35 :Info: Getting ECU name for signature: 'rusEFI master.2026.09.19.KRC_ECU_V3.3033935405'
+02/11/26 17.45.35 :Info: Looks like rusEFI
+02/11/26 17.45.47 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+[Duplicate entry] received 7 times: Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.46.54 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.46.54 :Info: Connection Check failed, forcing offline.
+02/11/26 17.46.55 :Debug: No Remaining Queue Write instructions
+02/11/26 17.46.55 :Debug: Went offline
+02/11/26 17.46.55 :Debug: No Remaining Queue Write instructions
+02/11/26 17.46.55 :Info: Went offline 2
+02/11/26 17.46.56 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+02/11/26 17.46.59 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 17.46.59 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 17.47.04 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+[Duplicate entry] received 2 times: Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.47.10 :Debug: No Remaining Queue Write instructions
+02/11/26 17.47.10 :Debug: Went offline
+02/11/26 17.47.10 :Debug: No Remaining Queue Write instructions
+02/11/26 17.47.10 :Info: Went offline 2
+02/11/26 17.47.11 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 17.47.11 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 17.47.15 :Info: Initiating read page 1 : 832:3203
+02/11/26 17.47.15 :Info: CRC Mismatch, will need to refresh page from controller 
+02/11/26 17.47.15 :Info:    CRC from controller page 1:x9F x05 x94 xF9                                                       ....
+02/11/26 17.47.15 :Info:    Local Data CRC for page 1: xB1 x5C x95 x86                                                       .\..
+02/11/26 17.47.15 :Info: Checksum of data read: x69 x7D x66 x36                                                       i}f6
+02/11/26 17.47.59 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.47.59 :Debug: Flush lasted: 74ms.
+02/11/26 17.47.59 :Debug: Burn Page anonymous: 1
+02/11/26 17.47.59 :Info: Queueing burn to page:1
+02/11/26 17.47.59 :Debug: Burn time:1ms.
+02/11/26 17.47.59 :Debug: burned page 1
+02/11/26 17.47.59 :Debug: No Remaining Queue Write instructions
+02/11/26 17.47.59 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 17.48.00 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.48.00 :Debug: Flush lasted: 70ms.
+02/11/26 17.48.00 :Debug: Burn Page anonymous: -1
+02/11/26 17.48.00 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 17.48.00 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 17.48.00 :Info: Time to save msq: 50.953377
+02/11/26 17.48.08 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.48.08 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.48.08 :Info: Connection Check failed, forcing offline.
+02/11/26 17.48.09 :Debug: No Remaining Queue Write instructions
+02/11/26 17.48.09 :Debug: Went offline
+02/11/26 17.48.09 :Debug: No Remaining Queue Write instructions
+02/11/26 17.48.09 :Info: Went offline 2
+02/11/26 17.48.10 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+02/11/26 17.48.10 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 17.48.10 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 17.48.10 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 17.48.10 :Info: CrC matched skipped controller read on page:1
+02/11/26 17.48.10 :Debug: CRC matches for page 2:x0D x96 x85 x58                                                       ...X
+02/11/26 17.48.10 :Info: CrC matched skipped controller read on page:2
+02/11/26 17.48.10 :Debug: CRC matches for page 3:xF1 xE8 xBA x9E                                                       ....
+02/11/26 17.48.10 :Info: CrC matched skipped controller read on page:3
+02/11/26 17.48.10 :Debug: CRC matches for page 4:xEE x16 xB6 x0D                                                       ....
+02/11/26 17.48.10 :Info: CrC matched skipped controller read on page:4
+02/11/26 17.48.10 :Debug: CRC matches for page 5:x4A x4B xE8 x64                                                       JK.d
+02/11/26 17.48.10 :Info: CrC matched skipped controller read on page:5
+02/11/26 17.48.10 :Debug: Read All Data
+02/11/26 17.48.10 :Debug: isBlank Time: 0 ms.
+02/11/26 17.48.10 :Debug: DiffTime: 23 ms.
+02/11/26 17.48.15 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.48.15 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.48.15 :Info: Connection Check failed, forcing offline.
+02/11/26 17.48.17 :Debug: No Remaining Queue Write instructions
+02/11/26 17.48.17 :Debug: Went offline
+02/11/26 17.48.17 :Debug: No Remaining Queue Write instructions
+02/11/26 17.48.17 :Info: Went offline 2
+02/11/26 17.48.17 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 17.48.17 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 17.48.24 :Info: Initiating read page 1 : 1412:2628
+02/11/26 17.48.24 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 17.48.24 :Info: CrC matched skipped controller read on page:0
+02/11/26 17.48.27 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.48.27 :Debug: Flush lasted: 75ms.
+02/11/26 17.48.27 :Debug: Burn Page anonymous: -1
+02/11/26 17.48.27 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 17.48.27 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 17.48.31 :Info: Initiating read page 1 : 832:3203
+02/11/26 17.48.31 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 17.48.31 :Info: CrC matched skipped controller read on page:0
+02/11/26 17.50.36 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.50.36 :Debug: Flush lasted: 70ms.
+02/11/26 17.50.36 :Debug: Burn Page anonymous: -1
+02/11/26 17.50.36 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 17.50.36 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 17.51.17 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.51.17 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.51.17 :Info: Connection Check failed, forcing offline.
+02/11/26 17.51.19 :Debug: No Remaining Queue Write instructions
+02/11/26 17.51.19 :Debug: Went offline
+02/11/26 17.51.19 :Debug: No Remaining Queue Write instructions
+02/11/26 17.51.19 :Info: Went offline 2
+02/11/26 17.51.19 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+02/11/26 17.51.26 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 17.51.26 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 17.51.29 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.51.55 :Info: Initiating read page 1 : 3416:29
+02/11/26 17.51.55 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 17.51.55 :Info: CrC matched skipped controller read on page:0
+02/11/26 17.52.03 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.52.05 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.52.05 :Debug: Flush lasted: 76ms.
+02/11/26 17.52.05 :Debug: Burn Page anonymous: 1
+02/11/26 17.52.05 :Info: Queueing burn to page:1
+02/11/26 17.52.05 :Debug: Burn time:1ms.
+02/11/26 17.52.05 :Debug: burned page 1
+02/11/26 17.52.05 :Debug: No Remaining Queue Write instructions
+02/11/26 17.52.05 :Debug: CRC matches for page 1:xDC xB9 x4E xCA                                                       ..N.
+02/11/26 17.52.06 :Info: Time to save msq: 31.589333
+02/11/26 17.52.16 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.52.16 :Debug: Flush lasted: 73ms.
+02/11/26 17.52.16 :Debug: Burn Page anonymous: 1
+02/11/26 17.52.16 :Info: Queueing burn to page:1
+02/11/26 17.52.16 :Debug: Burn time:2ms.
+02/11/26 17.52.16 :Debug: burned page 1
+02/11/26 17.52.16 :Debug: No Remaining Queue Write instructions
+02/11/26 17.52.16 :Debug: CRC matches for page 1:xEB xD1 x64 x0F                                                       ..d.
+02/11/26 17.52.17 :Info: Time to save msq: 7.675875
+02/11/26 17.52.23 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.52.23 :Debug: Flush lasted: 75ms.
+02/11/26 17.52.23 :Debug: Burn Page anonymous: 1
+02/11/26 17.52.23 :Info: Queueing burn to page:1
+02/11/26 17.52.23 :Debug: Burn time:2ms.
+02/11/26 17.52.23 :Debug: burned page 1
+02/11/26 17.52.23 :Debug: No Remaining Queue Write instructions
+02/11/26 17.52.23 :Debug: CRC matches for page 1:x06 xC8 x0A x1D                                                       ....
+02/11/26 17.52.24 :Info: Time to save msq: 17.633793
+02/11/26 17.52.33 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+[Duplicate entry] received 4 times: Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.55.02 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.55.02 :Debug: Flush lasted: 75ms.
+02/11/26 17.55.02 :Debug: Skip Burn, last write page: -2
+02/11/26 17.55.22 :Info: Initiating read page 1 : 196:3572
+02/11/26 17.55.22 :Debug: CRC matches for page 1:x06 xC8 x0A x1D                                                       ....
+02/11/26 17.55.22 :Info: CrC matched skipped controller read on page:0
+02/11/26 17.55.25 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.55.25 :Debug: Flush lasted: 72ms.
+02/11/26 17.55.25 :Debug: Burn Page anonymous: -1
+02/11/26 17.55.25 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 17.55.25 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 17.55.28 :Info: Initiating read page 1 : 196:1464
+02/11/26 17.55.28 :Debug: CRC matches for page 1:x06 xC8 x0A x1D                                                       ....
+02/11/26 17.55.28 :Info: CrC matched skipped controller read on page:0
+02/11/26 17.57.26 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 17.57.26 :Debug: Flush lasted: 72ms.
+02/11/26 17.57.26 :Debug: Burn Page anonymous: -1
+02/11/26 17.57.26 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 17.57.26 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 17.57.33 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.57.33 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 17.57.33 :Info: Connection Check failed, forcing offline.
+02/11/26 17.57.35 :Debug: No Remaining Queue Write instructions
+02/11/26 17.57.35 :Debug: Went offline
+02/11/26 17.57.35 :Debug: No Remaining Queue Write instructions
+02/11/26 17.57.35 :Info: Went offline 2
+02/11/26 17.57.35 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+02/11/26 18.36.45 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 18.36.45 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 18.36.46 :Info: CRC Mismatch, will need to refresh page from controller 
+02/11/26 18.36.46 :Info:    CRC from controller page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 18.36.46 :Info:    Local Data CRC for page 1: x06 xC8 x0A x1D                                                       ....
+I 261102 183649.807 [COMM Thread78466.65475721197] J - Error Reading Page
+V.b: Timeout after:3001ms. requested timeout:3000, Expected bytes:3, bytes read:0
+	at A.t.a(Unknown Source)
+	at G.J.b(Unknown Source)
+	at G.J.a(Unknown Source)
+	at G.J.a(Unknown Source)
+	at G.J.l(Unknown Source)
+	at G.J.c(Unknown Source)
+	at G.J.y(Unknown Source)
+	at A.t.c(Unknown Source)
+	at A.u.run(Unknown Source)
+02/11/26 18.36.49 :Error: Could not process CommInstruction. writing last 0 controller interactions to the log followed by the stack trace
+02/11/26 18.36.49 :Info: Error: Could not process CommInstruction. writing last 0 controller interactions to the log followed by the stack trace
+E 261102 183649.811 [COMM Thread78466.65475721197] J - null
+V.b: Timeout after:3001ms. requested timeout:3000, Expected bytes:3, bytes read:0
+	at A.t.a(Unknown Source)
+	at G.J.b(Unknown Source)
+	at G.J.a(Unknown Source)
+	at G.J.a(Unknown Source)
+	at G.J.l(Unknown Source)
+	at G.J.c(Unknown Source)
+	at G.J.y(Unknown Source)
+	at A.t.c(Unknown Source)
+	at A.u.run(Unknown Source)
+02/11/26 18.36.49 :Debug: result.FAILED: 1 tryCount
+02/11/26 18.36.52 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 18.36.54 :Info: CRC Mismatch, will need to refresh page from controller 
+02/11/26 18.36.54 :Info:    CRC from controller page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 18.36.54 :Info:    Local Data CRC for page 1: x06 xC8 x0A x1D                                                       ....
+02/11/26 18.36.55 :Debug: Read page time: 936ms.
+02/11/26 18.36.55 :Info: Checksum page 1 data read: x82 xBD x79 x06                                                       ..y.
+02/11/26 18.36.55 :Debug: CRC matches for page 2:x0D x96 x85 x58                                                       ...X
+02/11/26 18.36.55 :Info: CrC matched skipped controller read on page:2
+02/11/26 18.36.55 :Debug: CRC matches for page 3:xF1 xE8 xBA x9E                                                       ....
+02/11/26 18.36.55 :Info: CrC matched skipped controller read on page:3
+02/11/26 18.36.55 :Debug: CRC matches for page 4:xEE x16 xB6 x0D                                                       ....
+02/11/26 18.36.55 :Info: CrC matched skipped controller read on page:4
+02/11/26 18.36.55 :Debug: CRC matches for page 5:x4A x4B xE8 x64                                                       JK.d
+02/11/26 18.36.55 :Info: CrC matched skipped controller read on page:5
+02/11/26 18.36.55 :Debug: Read All Data
+02/11/26 18.36.55 :Debug: isBlank Time: 3 ms.
+02/11/26 18.36.55 :Debug: DiffTime: 39 ms.
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1429)
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1453)
+	at G.cw.a(Unknown Source)
+	at G.cw.run(Unknown Source)
+02/11/26 18.37.23 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+[Duplicate entry] received 4 times: Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 18.39.56 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 18.40.07 :Info: Initiating read page 1 : 196:1464
+02/11/26 18.40.07 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 18.40.09 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 18.40.09 :Info: CrC matched skipped controller read on page:0
+02/11/26 18.40.09 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.40.09 :Debug: Flush lasted: 73ms.
+02/11/26 18.40.09 :Debug: Burn Page anonymous: -1
+02/11/26 18.40.09 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.40.09 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.40.18 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+[Duplicate entry] received 2 times: Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 18.40.33 :Info: Initiating read page 1 : 3800:2
+02/11/26 18.40.33 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 18.40.33 :Info: CrC matched skipped controller read on page:0
+02/11/26 18.40.35 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.40.35 :Debug: Flush lasted: 75ms.
+02/11/26 18.40.35 :Debug: Burn Page anonymous: -1
+02/11/26 18.40.35 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.40.35 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.40.40 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+[Duplicate entry] received 5 times: Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 18.49.33 :Info: Initiating read page 1 : 3416:29
+02/11/26 18.49.33 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 18.49.33 :Info: CrC matched skipped controller read on page:0
+02/11/26 18.49.49 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.49.49 :Debug: Flush lasted: 75ms.
+02/11/26 18.49.49 :Debug: Burn Page anonymous: 1
+02/11/26 18.49.49 :Info: Queueing burn to page:1
+02/11/26 18.49.49 :Debug: Burn time:1ms.
+02/11/26 18.49.49 :Debug: burned page 1
+02/11/26 18.49.49 :Debug: No Remaining Queue Write instructions
+02/11/26 18.49.49 :Debug: CRC matches for page 1:xAC xE5 x2E x09                                                       ....
+02/11/26 18.49.49 :Info: Getting ECU name for signature: 'rusEFI master.2026.09.19.KRC_ECU_V3.3033935405'
+02/11/26 18.49.49 :Info: Looks like rusEFI
+02/11/26 18.49.50 :Info: Time to save msq: 23.376375
+02/11/26 18.49.58 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.49.58 :Debug: Flush lasted: 73ms.
+02/11/26 18.49.58 :Debug: Burn Page anonymous: 1
+02/11/26 18.49.58 :Info: Queueing burn to page:1
+02/11/26 18.49.58 :Debug: Burn time:1ms.
+02/11/26 18.49.58 :Debug: burned page 1
+02/11/26 18.49.58 :Debug: No Remaining Queue Write instructions
+02/11/26 18.49.59 :Debug: CRC matches for page 1:x76 x2A x4F x22                                                       v*O"
+02/11/26 18.50.00 :Info: Time to save msq: 12.1905
+02/11/26 18.50.09 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.50.09 :Debug: Flush lasted: 75ms.
+02/11/26 18.50.09 :Debug: Burn Page anonymous: 1
+02/11/26 18.50.09 :Info: Queueing burn to page:1
+02/11/26 18.50.09 :Debug: Burn time:1ms.
+02/11/26 18.50.09 :Debug: burned page 1
+02/11/26 18.50.09 :Debug: No Remaining Queue Write instructions
+02/11/26 18.50.09 :Debug: CRC matches for page 1:x06 xC8 x0A x1D                                                       ....
+02/11/26 18.50.11 :Info: Time to save msq: 15.800209
+02/11/26 18.52.14 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.52.14 :Debug: Flush lasted: 71ms.
+02/11/26 18.52.14 :Debug: Burn Page anonymous: 1
+02/11/26 18.52.14 :Info: Queueing burn to page:1
+02/11/26 18.52.14 :Debug: Burn time:2ms.
+02/11/26 18.52.14 :Debug: burned page 1
+02/11/26 18.52.14 :Debug: No Remaining Queue Write instructions
+02/11/26 18.52.14 :Debug: CRC matches for page 1:xFC x42 x99 x3D                                                       .B.=
+02/11/26 18.52.16 :Info: Time to save msq: 22.425793
+02/11/26 18.52.26 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.52.26 :Debug: Flush lasted: 75ms.
+02/11/26 18.52.26 :Debug: Burn Page anonymous: 1
+02/11/26 18.52.26 :Info: Queueing burn to page:1
+02/11/26 18.52.26 :Debug: Burn time:1ms.
+02/11/26 18.52.26 :Debug: burned page 1
+02/11/26 18.52.26 :Debug: No Remaining Queue Write instructions
+02/11/26 18.52.26 :Debug: CRC matches for page 1:x09 x2A xF9 xF5                                                       .*..
+02/11/26 18.52.27 :Info: Time to save msq: 17.4895
+02/11/26 18.52.32 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.52.32 :Debug: Flush lasted: 71ms.
+02/11/26 18.52.32 :Debug: Burn Page anonymous: 1
+02/11/26 18.52.32 :Info: Queueing burn to page:1
+02/11/26 18.52.32 :Debug: Burn time:1ms.
+02/11/26 18.52.32 :Debug: burned page 1
+02/11/26 18.52.32 :Debug: No Remaining Queue Write instructions
+02/11/26 18.52.32 :Debug: CRC matches for page 1:x71 x31 xE1 x3D                                                       q1.=
+02/11/26 18.52.33 :Info: Time to save msq: 10.697791
+02/11/26 18.52.42 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.52.42 :Debug: Flush lasted: 73ms.
+02/11/26 18.52.42 :Debug: Burn Page anonymous: 1
+02/11/26 18.52.42 :Info: Queueing burn to page:1
+02/11/26 18.52.42 :Debug: Burn time:2ms.
+02/11/26 18.52.42 :Debug: burned page 1
+02/11/26 18.52.42 :Debug: No Remaining Queue Write instructions
+02/11/26 18.52.42 :Debug: CRC matches for page 1:x09 x2A xF9 xF5                                                       .*..
+02/11/26 18.52.43 :Info: Time to save msq: 7.177958
+02/11/26 18.53.01 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.53.01 :Debug: Flush lasted: 71ms.
+02/11/26 18.53.01 :Debug: Burn Page anonymous: 1
+02/11/26 18.53.01 :Info: Queueing burn to page:1
+02/11/26 18.53.01 :Debug: Burn time:1ms.
+02/11/26 18.53.01 :Debug: burned page 1
+02/11/26 18.53.01 :Debug: No Remaining Queue Write instructions
+02/11/26 18.53.01 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 18.53.02 :Info: Time to save msq: 14.872792
+02/11/26 18.53.43 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.53.43 :Debug: Flush lasted: 71ms.
+02/11/26 18.53.43 :Debug: Burn Page anonymous: 1
+02/11/26 18.53.43 :Info: Queueing burn to page:1
+02/11/26 18.53.43 :Debug: Burn time:2ms.
+02/11/26 18.53.43 :Debug: burned page 1
+02/11/26 18.53.43 :Debug: No Remaining Queue Write instructions
+02/11/26 18.53.43 :Debug: CRC matches for page 1:xAB xFE x80 x16                                                       ....
+02/11/26 18.53.44 :Info: Time to save msq: 22.373585
+02/11/26 18.53.59 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.53.59 :Debug: Flush lasted: 75ms.
+02/11/26 18.53.59 :Debug: Burn Page anonymous: 1
+02/11/26 18.53.59 :Info: Queueing burn to page:1
+02/11/26 18.53.59 :Debug: Burn time:1ms.
+02/11/26 18.53.59 :Debug: burned page 1
+02/11/26 18.53.59 :Debug: No Remaining Queue Write instructions
+02/11/26 18.53.59 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 18.54.01 :Info: Time to save msq: 13.161042
+02/11/26 18.54.49 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.54.49 :Debug: Flush lasted: 75ms.
+02/11/26 18.54.49 :Debug: Burn Page anonymous: 1
+02/11/26 18.54.49 :Info: Queueing burn to page:1
+02/11/26 18.54.49 :Debug: Burn time:1ms.
+02/11/26 18.54.49 :Debug: burned page 1
+02/11/26 18.54.49 :Debug: No Remaining Queue Write instructions
+02/11/26 18.54.49 :Debug: CRC matches for page 1:xAB xFE x80 x16                                                       ....
+02/11/26 18.54.51 :Info: Time to save msq: 12.699375
+02/11/26 18.55.19 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.55.19 :Debug: Flush lasted: 75ms.
+02/11/26 18.55.19 :Debug: Burn Page anonymous: -1
+02/11/26 18.55.19 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.55.19 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.55.52 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.55.52 :Debug: Flush lasted: 75ms.
+02/11/26 18.55.52 :Debug: Burn Page anonymous: -1
+02/11/26 18.55.52 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.55.52 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.55.58 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.55.58 :Debug: Flush lasted: 76ms.
+02/11/26 18.55.58 :Debug: Burn Page anonymous: 1
+02/11/26 18.55.58 :Info: Queueing burn to page:1
+02/11/26 18.55.58 :Debug: Burn time:1ms.
+02/11/26 18.55.58 :Debug: burned page 1
+02/11/26 18.55.58 :Debug: No Remaining Queue Write instructions
+02/11/26 18.55.58 :Debug: CRC matches for page 1:x53 x3A xAB x6B                                                       S:.k
+02/11/26 18.56.00 :Info: Time to save msq: 17.65104
+02/11/26 18.56.00 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.01 :Debug: Flush lasted: 71ms.
+02/11/26 18.56.01 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.01 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.01 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.01 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.01 :Debug: Flush lasted: 74ms.
+02/11/26 18.56.01 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.01 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.01 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.01 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.01 :Debug: Flush lasted: 75ms.
+02/11/26 18.56.01 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.01 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.01 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.01 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.01 :Debug: Flush lasted: 73ms.
+02/11/26 18.56.01 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.01 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.01 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.01 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.02 :Debug: Flush lasted: 75ms.
+02/11/26 18.56.02 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.02 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.02 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.02 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.02 :Debug: Flush lasted: 75ms.
+02/11/26 18.56.02 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.02 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.02 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.02 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.02 :Debug: Flush lasted: 71ms.
+02/11/26 18.56.02 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.02 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.02 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.02 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.02 :Debug: Flush lasted: 75ms.
+02/11/26 18.56.02 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.02 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.02 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.02 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.02 :Debug: Flush lasted: 75ms.
+02/11/26 18.56.02 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.02 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.02 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.02 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.02 :Debug: Flush lasted: 74ms.
+02/11/26 18.56.02 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.02 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.02 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.03 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.03 :Debug: Flush lasted: 72ms.
+02/11/26 18.56.03 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.03 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.03 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.03 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.03 :Debug: Flush lasted: 73ms.
+02/11/26 18.56.03 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.03 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.03 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.03 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.03 :Debug: Flush lasted: 70ms.
+02/11/26 18.56.03 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.03 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.03 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.03 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.03 :Debug: Flush lasted: 73ms.
+02/11/26 18.56.03 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.03 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.03 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 18.56.03 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 18.56.04 :Debug: Flush lasted: 70ms.
+02/11/26 18.56.04 :Debug: Burn Page anonymous: -1
+02/11/26 18.56.04 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 18.56.04 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 19.02.21 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.02.21 :Debug: Flush lasted: 75ms.
+02/11/26 19.02.21 :Debug: Burn Page anonymous: 1
+02/11/26 19.02.21 :Info: Queueing burn to page:1
+02/11/26 19.02.21 :Debug: Burn time:2ms.
+02/11/26 19.02.21 :Debug: burned page 1
+02/11/26 19.02.21 :Debug: No Remaining Queue Write instructions
+02/11/26 19.02.21 :Debug: CRC matches for page 1:xEB xD1 x64 x0F                                                       ..d.
+02/11/26 19.02.23 :Info: Time to save msq: 14.627541
+02/11/26 19.02.38 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.02.38 :Debug: Flush lasted: 75ms.
+02/11/26 19.02.38 :Debug: Burn Page anonymous: 1
+02/11/26 19.02.38 :Info: Queueing burn to page:1
+02/11/26 19.02.38 :Debug: Burn time:1ms.
+02/11/26 19.02.38 :Debug: burned page 1
+02/11/26 19.02.38 :Debug: No Remaining Queue Write instructions
+02/11/26 19.02.38 :Debug: CRC matches for page 1:x09 x2A xF9 xF5                                                       .*..
+02/11/26 19.02.40 :Info: Time to save msq: 18.591875
+02/11/26 19.22.09 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.22.09 :Debug: Flush lasted: 75ms.
+02/11/26 19.22.09 :Debug: Burn Page anonymous: 1
+02/11/26 19.22.09 :Info: Queueing burn to page:1
+02/11/26 19.22.09 :Debug: Burn time:2ms.
+02/11/26 19.22.09 :Debug: burned page 1
+02/11/26 19.22.09 :Debug: No Remaining Queue Write instructions
+02/11/26 19.22.09 :Debug: CRC matches for page 1:x3A xC5 x86 x79                                                       :..y
+02/11/26 19.22.11 :Info: Time to save msq: 19.350292
+02/11/26 19.22.19 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.22.19 :Debug: Flush lasted: 3ms.
+02/11/26 19.22.19 :Debug: Burn Page anonymous: 1
+02/11/26 19.22.19 :Info: Queueing burn to page:1
+02/11/26 19.22.19 :Debug: Burn time:2ms.
+02/11/26 19.22.19 :Debug: burned page 1
+02/11/26 19.22.19 :Debug: No Remaining Queue Write instructions
+02/11/26 19.22.19 :Debug: CRC matches for page 1:x6F x37 x27 x0F                                                       o7'.
+02/11/26 19.22.20 :Info: Time to save msq: 10.740917
+02/11/26 19.22.27 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.22.27 :Debug: Flush lasted: 74ms.
+02/11/26 19.22.27 :Debug: Burn Page anonymous: 1
+02/11/26 19.22.27 :Info: Queueing burn to page:1
+02/11/26 19.22.27 :Debug: Burn time:1ms.
+02/11/26 19.22.27 :Debug: burned page 1
+02/11/26 19.22.27 :Debug: No Remaining Queue Write instructions
+02/11/26 19.22.27 :Debug: CRC matches for page 1:x06 xC8 x0A x1D                                                       ....
+02/11/26 19.22.29 :Info: Time to save msq: 15.695417
+02/11/26 19.28.04 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.28.04 :Debug: Flush lasted: 71ms.
+02/11/26 19.28.04 :Debug: Burn Page anonymous: 1
+02/11/26 19.28.04 :Info: Queueing burn to page:1
+02/11/26 19.28.04 :Debug: Burn time:1ms.
+02/11/26 19.28.04 :Debug: burned page 1
+02/11/26 19.28.04 :Debug: No Remaining Queue Write instructions
+02/11/26 19.28.04 :Debug: CRC matches for page 1:x53 x3A xAB x6B                                                       S:.k
+02/11/26 19.28.06 :Info: Time to save msq: 11.054334
+02/11/26 19.28.12 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.28.12 :Debug: Flush lasted: 75ms.
+02/11/26 19.28.12 :Debug: Burn Page anonymous: 1
+02/11/26 19.28.12 :Info: Queueing burn to page:1
+02/11/26 19.28.12 :Debug: Burn time:2ms.
+02/11/26 19.28.12 :Debug: burned page 1
+02/11/26 19.28.12 :Debug: No Remaining Queue Write instructions
+02/11/26 19.28.12 :Debug: CRC matches for page 1:x6F x37 x27 x0F                                                       o7'.
+02/11/26 19.28.14 :Info: Time to save msq: 16.790417
+02/11/26 19.28.30 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.28.30 :Debug: Flush lasted: 75ms.
+02/11/26 19.28.30 :Debug: Burn Page anonymous: 1
+02/11/26 19.28.30 :Info: Queueing burn to page:1
+02/11/26 19.28.30 :Debug: Burn time:1ms.
+02/11/26 19.28.30 :Debug: burned page 1
+02/11/26 19.28.30 :Debug: No Remaining Queue Write instructions
+02/11/26 19.28.30 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 19.28.31 :Info: Time to save msq: 11.675417
+02/11/26 19.31.01 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.31.01 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.31.01 :Info: Connection Check failed, forcing offline.
+02/11/26 19.31.03 :Debug: No Remaining Queue Write instructions
+02/11/26 19.31.03 :Debug: Went offline
+02/11/26 19.31.03 :Debug: No Remaining Queue Write instructions
+02/11/26 19.31.03 :Info: Went offline 2
+02/11/26 19.31.03 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+02/11/26 19.39.12 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 19.39.12 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 19.39.12 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 19.39.12 :Info: CrC matched skipped controller read on page:1
+02/11/26 19.39.12 :Debug: CRC matches for page 2:x0D x96 x85 x58                                                       ...X
+02/11/26 19.39.12 :Info: CrC matched skipped controller read on page:2
+02/11/26 19.39.12 :Debug: CRC matches for page 3:xF1 xE8 xBA x9E                                                       ....
+02/11/26 19.39.12 :Info: CrC matched skipped controller read on page:3
+02/11/26 19.39.12 :Debug: CRC matches for page 4:xEE x16 xB6 x0D                                                       ....
+02/11/26 19.39.12 :Info: CrC matched skipped controller read on page:4
+02/11/26 19.39.12 :Debug: CRC matches for page 5:x4A x4B xE8 x64                                                       JK.d
+02/11/26 19.39.12 :Info: CrC matched skipped controller read on page:5
+02/11/26 19.39.12 :Debug: Read All Data
+02/11/26 19.39.12 :Debug: isBlank Time: 0 ms.
+02/11/26 19.39.12 :Debug: DiffTime: 22 ms.
+02/11/26 19.39.15 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.39.15 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.39.15 :Info: Connection Check failed, forcing offline.
+02/11/26 19.39.17 :Debug: No Remaining Queue Write instructions
+02/11/26 19.39.17 :Debug: Went offline
+02/11/26 19.39.17 :Debug: No Remaining Queue Write instructions
+02/11/26 19.39.17 :Info: Went offline 2
+02/11/26 19.39.18 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 19.39.18 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 19.39.32 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.39.32 :Debug: Flush lasted: 74ms.
+02/11/26 19.39.32 :Debug: Burn Page anonymous: 1
+02/11/26 19.39.32 :Info: Queueing burn to page:1
+02/11/26 19.39.32 :Debug: Burn time:1ms.
+02/11/26 19.39.32 :Debug: burned page 1
+02/11/26 19.39.32 :Debug: No Remaining Queue Write instructions
+02/11/26 19.39.32 :Debug: CRC matches for page 1:x09 x2A xF9 xF5                                                       .*..
+02/11/26 19.39.33 :Info: Getting ECU name for signature: 'rusEFI master.2026.09.19.KRC_ECU_V3.3033935405'
+02/11/26 19.39.33 :Info: Looks like rusEFI
+02/11/26 19.39.34 :Info: Time to save msq: 21.283709
+02/11/26 19.39.52 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.39.52 :Debug: Flush lasted: 72ms.
+02/11/26 19.39.52 :Debug: Burn Page anonymous: 1
+02/11/26 19.39.52 :Info: Queueing burn to page:1
+02/11/26 19.39.52 :Debug: Burn time:2ms.
+02/11/26 19.39.52 :Debug: burned page 1
+02/11/26 19.39.52 :Debug: No Remaining Queue Write instructions
+02/11/26 19.39.52 :Debug: CRC matches for page 1:x06 xC8 x0A x1D                                                       ....
+02/11/26 19.39.54 :Info: Time to save msq: 14.02725
+02/11/26 19.39.55 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.39.55 :Debug: Flush lasted: 73ms.
+02/11/26 19.39.55 :Debug: Burn Page anonymous: -1
+02/11/26 19.39.55 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 19.39.55 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 19.40.02 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.40.02 :Debug: Flush lasted: 76ms.
+02/11/26 19.40.02 :Debug: Burn Page anonymous: 1
+02/11/26 19.40.02 :Info: Queueing burn to page:1
+02/11/26 19.40.02 :Debug: Burn time:1ms.
+02/11/26 19.40.02 :Debug: burned page 1
+02/11/26 19.40.02 :Debug: No Remaining Queue Write instructions
+02/11/26 19.40.02 :Debug: CRC matches for page 1:x09 x2A xF9 xF5                                                       .*..
+02/11/26 19.40.03 :Info: Time to save msq: 11.158792
+02/11/26 19.40.30 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.40.30 :Debug: Flush lasted: 70ms.
+02/11/26 19.40.30 :Debug: Burn Page anonymous: 1
+02/11/26 19.40.30 :Info: Queueing burn to page:1
+02/11/26 19.40.30 :Debug: Burn time:2ms.
+02/11/26 19.40.30 :Debug: burned page 1
+02/11/26 19.40.30 :Debug: No Remaining Queue Write instructions
+02/11/26 19.40.30 :Debug: CRC matches for page 1:x3A xC5 x86 x79                                                       :..y
+02/11/26 19.40.32 :Info: Time to save msq: 6.79
+02/11/26 19.40.44 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.40.44 :Debug: Flush lasted: 72ms.
+02/11/26 19.40.44 :Debug: Burn Page anonymous: 1
+02/11/26 19.40.44 :Info: Queueing burn to page:1
+02/11/26 19.40.44 :Debug: Burn time:2ms.
+02/11/26 19.40.44 :Debug: burned page 1
+02/11/26 19.40.44 :Debug: No Remaining Queue Write instructions
+02/11/26 19.40.44 :Debug: CRC matches for page 1:x4D x3C x6D x59                                                       M<mY
+02/11/26 19.40.45 :Info: Time to save msq: 11.379125
+02/11/26 19.42.35 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.42.35 :Debug: Flush lasted: 72ms.
+02/11/26 19.42.35 :Debug: Burn Page anonymous: 1
+02/11/26 19.42.35 :Info: Queueing burn to page:1
+02/11/26 19.42.35 :Debug: Burn time:1ms.
+02/11/26 19.42.35 :Debug: burned page 1
+02/11/26 19.42.35 :Debug: No Remaining Queue Write instructions
+02/11/26 19.42.35 :Debug: CRC matches for page 1:x3A xC5 x86 x79                                                       :..y
+02/11/26 19.42.37 :Info: Time to save msq: 12.816833
+02/11/26 19.42.53 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.42.53 :Debug: Flush lasted: 76ms.
+02/11/26 19.42.53 :Debug: Burn Page anonymous: 1
+02/11/26 19.42.53 :Info: Queueing burn to page:1
+02/11/26 19.42.53 :Debug: Burn time:1ms.
+02/11/26 19.42.53 :Debug: burned page 1
+02/11/26 19.42.53 :Debug: No Remaining Queue Write instructions
+02/11/26 19.42.53 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 19.42.55 :Info: Time to save msq: 9.878417
+02/11/26 19.43.02 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.43.02 :Debug: Flush lasted: 70ms.
+02/11/26 19.43.02 :Debug: Burn Page anonymous: -1
+02/11/26 19.43.02 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 19.43.02 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 19.43.15 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.43.15 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.43.15 :Info: Connection Check failed, forcing offline.
+02/11/26 19.43.16 :Debug: No Remaining Queue Write instructions
+02/11/26 19.43.16 :Debug: Went offline
+02/11/26 19.43.16 :Debug: No Remaining Queue Write instructions
+02/11/26 19.43.16 :Info: Went offline 2
+02/11/26 19.43.17 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+02/11/26 19.43.20 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 19.43.20 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 19.43.20 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 19.43.20 :Info: CrC matched skipped controller read on page:1
+02/11/26 19.43.20 :Debug: CRC matches for page 2:x0D x96 x85 x58                                                       ...X
+02/11/26 19.43.20 :Info: CrC matched skipped controller read on page:2
+02/11/26 19.43.20 :Debug: CRC matches for page 3:xF1 xE8 xBA x9E                                                       ....
+02/11/26 19.43.20 :Info: CrC matched skipped controller read on page:3
+02/11/26 19.43.20 :Debug: CRC matches for page 4:xEE x16 xB6 x0D                                                       ....
+02/11/26 19.43.20 :Info: CrC matched skipped controller read on page:4
+02/11/26 19.43.20 :Debug: CRC matches for page 5:x4A x4B xE8 x64                                                       JK.d
+02/11/26 19.43.20 :Info: CrC matched skipped controller read on page:5
+02/11/26 19.43.20 :Debug: Read All Data
+02/11/26 19.43.20 :Debug: isBlank Time: 0 ms.
+02/11/26 19.43.20 :Debug: DiffTime: 15 ms.
+02/11/26 19.43.24 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+[Duplicate entry] received 2 times: Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.43.30 :Debug: No Remaining Queue Write instructions
+02/11/26 19.43.30 :Debug: Went offline
+02/11/26 19.43.30 :Debug: No Remaining Queue Write instructions
+02/11/26 19.43.30 :Info: Went offline 2
+02/11/26 19.43.31 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 19.43.31 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 19.43.43 :Info: Initiating read page 1 : 76:2394
+02/11/26 19.43.43 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 19.43.43 :Info: CrC matched skipped controller read on page:0
+02/11/26 19.43.59 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.44.00 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.44.00 :Debug: Flush lasted: 73ms.
+02/11/26 19.44.00 :Debug: Burn Page anonymous: -1
+02/11/26 19.44.00 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 19.44.01 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 19.44.17 :Info: Initiating read page 1 : 76:2394
+02/11/26 19.44.17 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 19.44.17 :Info: CrC matched skipped controller read on page:0
+02/11/26 19.44.19 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.44.19 :Debug: Flush lasted: 75ms.
+02/11/26 19.44.19 :Debug: Burn Page anonymous: 1
+02/11/26 19.44.19 :Info: Queueing burn to page:1
+02/11/26 19.44.19 :Debug: Burn time:1ms.
+02/11/26 19.44.19 :Debug: burned page 1
+02/11/26 19.44.19 :Debug: No Remaining Queue Write instructions
+02/11/26 19.44.19 :Debug: CRC matches for page 1:xAC xE4 x78 x79                                                       ..xy
+02/11/26 19.44.20 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.44.20 :Debug: Flush lasted: 72ms.
+02/11/26 19.44.20 :Debug: Burn Page anonymous: -1
+02/11/26 19.44.20 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 19.44.20 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 19.44.21 :Info: Time to save msq: 27.337084
+02/11/26 19.44.30 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+[Duplicate entry] received 4 times: Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.51.21 :Info: Initiating read page 1 : 76:2394
+02/11/26 19.51.21 :Debug: CRC matches for page 1:xAC xE4 x78 x79                                                       ..xy
+02/11/26 19.51.21 :Info: CrC matched skipped controller read on page:0
+02/11/26 19.51.23 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.51.23 :Debug: Flush lasted: 74ms.
+02/11/26 19.51.23 :Debug: Burn Page anonymous: -1
+02/11/26 19.51.23 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 19.51.23 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 19.51.43 :Info: Initiating read page 1 : 76:2394
+02/11/26 19.51.43 :Debug: CRC matches for page 1:xAC xE4 x78 x79                                                       ..xy
+02/11/26 19.51.43 :Info: CrC matched skipped controller read on page:0
+02/11/26 19.51.45 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.51.45 :Debug: Flush lasted: 76ms.
+02/11/26 19.51.45 :Debug: Burn Page anonymous: 1
+02/11/26 19.51.45 :Info: Queueing burn to page:1
+02/11/26 19.51.45 :Debug: Burn time:1ms.
+02/11/26 19.51.45 :Debug: burned page 1
+02/11/26 19.51.45 :Debug: No Remaining Queue Write instructions
+02/11/26 19.51.46 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 19.51.47 :Info: Time to save msq: 18.22925
+02/11/26 19.51.49 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.51.50 :Debug: Flush lasted: 75ms.
+02/11/26 19.51.50 :Debug: Burn Page anonymous: -1
+02/11/26 19.51.50 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 19.51.50 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 19.52.01 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.52.01 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.52.01 :Info: Connection Check failed, forcing offline.
+02/11/26 19.52.02 :Debug: No Remaining Queue Write instructions
+02/11/26 19.52.02 :Debug: Went offline
+02/11/26 19.52.02 :Debug: No Remaining Queue Write instructions
+02/11/26 19.52.02 :Info: Went offline 2
+02/11/26 19.52.03 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+02/11/26 19.52.07 :Info: Sig Bytes:x72 x75 x73 x45 x46 x49 x20 x6D x61 x73 x74 x65 x72 x2E x32 x30       rusEFI.master.20
+x32 x36 x2E x30 x39 x2E x31 x39 x2E x4B x52 x43 x5F x45 x43 x55       26.09.19.KRC_ECU
+x5F x56 x33 x2E x33 x30 x33 x33 x39 x33 x35 x34 x30 x35 x00           _V3.3033935405.
+02/11/26 19.52.07 :Info: Communicating with sig:rusEFI master.2026.09.19.KRC_ECU_V3.3033935405, rusEFI v20260824@1431655765
+02/11/26 19.52.07 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 19.52.07 :Info: CrC matched skipped controller read on page:1
+02/11/26 19.52.07 :Debug: CRC matches for page 2:x0D x96 x85 x58                                                       ...X
+02/11/26 19.52.07 :Info: CrC matched skipped controller read on page:2
+02/11/26 19.52.07 :Debug: CRC matches for page 3:xF1 xE8 xBA x9E                                                       ....
+02/11/26 19.52.07 :Info: CrC matched skipped controller read on page:3
+02/11/26 19.52.07 :Debug: CRC matches for page 4:xEE x16 xB6 x0D                                                       ....
+02/11/26 19.52.07 :Info: CrC matched skipped controller read on page:4
+02/11/26 19.52.07 :Debug: CRC matches for page 5:x4A x4B xE8 x64                                                       JK.d
+02/11/26 19.52.07 :Info: CrC matched skipped controller read on page:5
+02/11/26 19.52.07 :Debug: Read All Data
+02/11/26 19.52.07 :Debug: isBlank Time: 0 ms.
+02/11/26 19.52.07 :Debug: DiffTime: 18 ms.
+02/11/26 19.52.10 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.52.19 :Info: Initiating read page 1 : 76:2394
+02/11/26 19.52.19 :Debug: CRC matches for page 1:x82 xBD x79 x06                                                       ..y.
+02/11/26 19.52.19 :Info: CrC matched skipped controller read on page:0
+02/11/26 19.52.21 :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+02/11/26 19.52.21 :Debug: Flush lasted: 75ms.
+02/11/26 19.52.21 :Debug: Burn Page anonymous: -1
+02/11/26 19.52.21 :Info: skip burn to page:1, lastWritePage = -2
+02/11/26 19.52.21 :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 1
+02/11/26 19.52.44 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+[Duplicate entry] received 10 times: Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.57.09 :Info: Re-establishing connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.57.09 :Warning: Failed to re-establish connection to: RS232: Port:/dev/cu.usbmodem102, Baud:115200
+02/11/26 19.57.09 :Info: Connection Check failed, forcing offline.
+02/11/26 19.57.10 :Debug: No Remaining Queue Write instructions
+02/11/26 19.57.10 :Debug: Went offline
+02/11/26 19.57.10 :Debug: No Remaining Queue Write instructions
+02/11/26 19.57.10 :Info: Went offline 2
+02/11/26 19.57.11 :Debug: Port not valid: Unable to open port: /dev/cu.usbmodem102
+Please check your Communications Settings. 
+02/11/26 20.10.08 :Info: Time to save msq: 35.994167
+02/11/26 20.10.08 :Info: closeApp Called
+02/11/26 20.10.08 :Debug: TuneLog Editor set text
+02/11/26 20.10.08 :Debug: Fill Constants: 35
+02/11/26 20.10.08 :Debug: File does not exist, creating new:
+/Users/hubertdrozdowsky/Builds/Cache/WBAAB11090AA01791/electrical/tunes/stage-2-rusefi/restorePoints/stage-2-rusefi_2026-11-02_20.10.08.msq
+02/11/26 20.10.08 :Info: Time to save msq: 22.936043
+02/11/26 20.10.08 :Info: stage-2-rusefi Restore point saved
+02/11/26 20.10.08 :Info: stage-2-rusefi Restore point saved to: stage-2-rusefi_2026-11-02_20.10.08.msq
+02/11/26 20.10.08 :Info: Time to save msq: 10.671084
+02/11/26 20.10.08 :Debug: goOffline Starting, Time:0
+02/11/26 20.10.08 :Info: Deactivated Turbo Baud, goOffline
+02/11/26 20.10.08 :Debug: goOffline about to stopProcessing, Time:0
+02/11/26 20.10.08 :Debug: goOffline closed port, Time:0
+02/11/26 20.10.09 :Info: stage-2-rusefi ComThread stopped COMM Thread78466.65475721197
+02/11/26 20.10.09 :Debug: goOffline comm thread stopped, Time:218
+02/11/26 20.10.09 :Debug: No Remaining Queue Write instructions
+02/11/26 20.10.11 :Debug: removing Configuration: stage-2-rusefi
+I 261102 201011.531 [AWT-EventQueue-0] TsPluginLauncher - displayPlugin 
+I 261102 201011.532 [AWT-EventQueue-0] BackgroundWizard - ECU signature invalid for this plugin: 
+02/11/26 20.10.11 :Debug: ############################################# Save Project Backup ##########################################
+02/11/26 20.10.11 :Info: Finalizing Sensors
+Saved user properties successfully

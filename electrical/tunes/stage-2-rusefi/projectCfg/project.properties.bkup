@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Sat Oct 24 20:35:49 CEST 2026
-#Sat Oct 24 20:35:49 CEST 2026
+#Last Saved on: Mon Nov 02 14:01:00 CET 2026
+#Mon Nov 02 14:01:00 CET 2026
 cltIdleTableOpen\ Loop\ Idle\ position\ CLT\ vs\ Target\ Rpm_width=573
 crankingTpsCurveCranking\ TPS\ Multiplier_height=464
 injectorConfigSettings_Y=262
@@ -42,7 +42,7 @@ cltIdleRPMCurveIdle\ Target\ RPM_X=123
 auxLinearSensorsSettings_height=501
 cltFuelCorrCurveDialogWarmup\ enrichment_height=627
 tpsSensorTPS_height=785
-tuneFileDir=/Users/hubertdrozdowsky/Cache/TunerStudioProjects/RusefiUpdated2026
+tuneFileDir=/Users/hubertdrozdowsky/Builds/Cache/WBAAB11090AA01791/electrical/tunes/stage-2-rusefi
 smLaunchControlLaunch\ Control_width=634
 pedalSensorAccelerator\ pedal_Y=245
 idleSettingsIdle\ settings_height=903
@@ -256,7 +256,7 @@ sdCardSD\ Card_Y=33
 torqueReductionTimeDialogSettings_X=290
 mafSettingsMAF\ sensor_height=270
 sdCardSD\ Card_X=213
-firmwareDescription=rusEFI v20260824@2647
+firmwareDescription=rusEFI v20260824@1431655765
 IgnitionTableDialogIgnition\ advance_height=563
 uegoCanCAN\ O2\ sensors_Y=299
 uegoCanCAN\ O2\ sensors_X=262
@@ -343,7 +343,7 @@ ambientTempSensorAmbient\ Temp\ Sensor\ Settings_width=327
 ignAdder1CfgIgnition\ adder\ 1\ config_height=525
 smLaunchControlLaunch\ Control_Y=215
 smLaunchControlLaunch\ Control_X=111
-malfunctionDialogCheck\ Engine\ Settings_height=688
+malfunctionDialogCheck\ Engine\ Settings_height=626
 Triggers.RusefiUpdated2026A.ActiveTriggers=TriggeredPage 1 Refresh\:  triggerPageRefreshFlag |TriggeredPage 3 Refresh\:  ltftPageRefreshFlag |TriggeredPage 4 Refresh\:  triggerPageRefreshFlag |
 boostDialogSettings_Y=367
 multisparkSettingsMultispark_height=391
@@ -437,7 +437,7 @@ idleSettingsIdle\ settings_X=399
 oilPressureSensorSettings_width=465
 dwellSettingsDwell_Y=141
 dwellSettingsDwell_X=116
-malfunctionDialogCheck\ Engine\ Settings_width=852
+malfunctionDialogCheck\ Engine\ Settings_width=906
 primingFuelPulsePanelPriming\ fuel\ pulse_height=657
 fuelClosedLoopDialogShort\ term\ fuel\ trim/Closed\ loop_height=762
 tpsTspRpmCorrectionTransient\ RPM\ correction_width=422

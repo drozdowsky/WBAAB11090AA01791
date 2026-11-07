@@ -4,6 +4,9 @@ Newest first. Add cost only when it's worth noting.
 
 Dates before 2026-10 come from git history: they show when the work was written down, not always the exact day it was done.
 
+## 2026-11: Short shifter (drivetrain)
+- Z3 1.9 short shifter + refresh of the shifter parts (OEM+ feel).
+
 ## 2026-10-17: Tune files added (electrical)
 - Stage 1 Speeduino and Stage 2 RusEFI TunerStudio projects added to [electrical/tunes/](electrical/tunes/README.md).
 
